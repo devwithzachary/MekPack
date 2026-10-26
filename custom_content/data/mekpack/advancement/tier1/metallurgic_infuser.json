@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:metallurgic_infuser"
+    },
+    "title": {
+      "text": "The Heart of Metallurgy"
+    },
+    "description": {
+      "text": "Construct the Metallurgic Infuser to infuse elements into base metals."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier0/heat_generator",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:metallurgic_infuser"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "mekpack:rewards/tier1_metallurgic_infuser"
+    ]
+  }
+}

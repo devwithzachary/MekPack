@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "ALA",
+    "TCT"
+  ],
+  "key": {
+    "T": "mekanism:teleportation_core",
+    "C": "mekanism:ultimate_control_circuit",
+    "A": "mekanism:alloy_atomic",
+    "L": "chunkloaders:advanced_chunk_loader"
+  },
+  "result": {
+    "id": "chunkloaders:ultimate_chunk_loader"
+  }
+}

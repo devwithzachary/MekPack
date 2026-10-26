@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IEF",
+    "SCS",
+    "IEF"
+  ],
+  "key": {
+    "I": "pipez:item_pipe",
+    "E": "pipez:energy_pipe",
+    "F": "pipez:fluid_pipe",
+    "S": "#c:ingots/steel",
+    "C": "mekanism:basic_control_circuit"
+  },
+  "result": {
+    "id": "pipez:universal_pipe",
+    "count": 8
+  }
+}

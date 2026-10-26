@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "DED",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "D": "minecraft:dropper",
+    "E": "mekanism:enriched_iron"
+  },
+  "result": {
+    "id": "pipez:item_pipe",
+    "count": 16
+  }
+}

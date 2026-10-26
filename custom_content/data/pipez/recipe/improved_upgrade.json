@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "RUR",
+    "ARA"
+  ],
+  "key": {
+    "A": "mekanism:alloy_reinforced",
+    "R": "mekanism:advanced_control_circuit",
+    "U": "pipez:basic_upgrade"
+  },
+  "result": {
+    "id": "pipez:improved_upgrade",
+    "count": 1
+  }
+}

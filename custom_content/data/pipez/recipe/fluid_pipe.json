@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "BEB",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "B": "minecraft:bucket",
+    "E": "mekanism:enriched_iron"
+  },
+  "result": {
+    "id": "pipez:fluid_pipe",
+    "count": 16
+  }
+}

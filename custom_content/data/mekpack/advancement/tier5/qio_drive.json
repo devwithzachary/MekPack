@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:qio_drive_array"
+    },
+    "title": {
+      "text": "Post-Scarcity Quantum Grid"
+    },
+    "description": {
+      "text": "Deploy a QIO Drive Array to store billions of items on subatomic quantum frequencies."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier5/antimatter_pellet",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_drive_array"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000,
+    "loot": [
+      "mekpack:rewards/tier5_qio_drive"
+    ]
+  }
+}

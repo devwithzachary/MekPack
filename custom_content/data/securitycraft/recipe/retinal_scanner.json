@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "#securitycraft:reinforced/stone_crafting_materials",
+    "C": "mekanism:advanced_control_circuit"
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "id": "securitycraft:retinal_scanner"
+  }
+}

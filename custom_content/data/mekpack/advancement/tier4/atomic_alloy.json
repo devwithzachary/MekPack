@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:alloy_atomic"
+    },
+    "title": {
+      "text": "Subatomic Engineering"
+    },
+    "description": {
+      "text": "Infuse Reinforced Alloys with Refined Obsidian to forge Atomic Alloys."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier4/industrial_turbine",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:alloy_atomic"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 700,
+    "loot": [
+      "mekpack:rewards/tier4_atomic_alloy"
+    ]
+  }
+}

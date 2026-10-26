@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:digital_miner"
+    },
+    "title": {
+      "text": "Autonomic Planetary Excavation"
+    },
+    "description": {
+      "text": "Construct the Digital Miner to extract target underground ores automatically."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier3/elite_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:digital_miner"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400,
+    "loot": [
+      "mekpack:rewards/tier3_digital_miner"
+    ]
+  }
+}

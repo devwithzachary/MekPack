@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:hazmat_mask"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:hazmat_gown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:hazmat_pants"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:hazmat_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:radioactive_waste_barrel",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 16
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

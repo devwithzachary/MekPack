@@ -1,0 +1,141 @@
+#Energy per operation of: Enrichment Chamber
+# Default: 5
+# Range: > 0
+enrichmentChamber = 5
+#Energy per operation of: Osmium Compressor
+# Default: 15
+# Range: > 0
+osmiumCompressor = 15
+#Energy per operation of: Combiner
+# Default: 5
+# Range: > 0
+combiner = 5
+#Energy per operation of: Crusher
+# Default: 8
+# Range: > 0
+crusher = 8
+#Energy per operation of: Metallurgic Infuser
+# Default: 5
+# Range: > 0
+metallurgicInfuser = 5
+#Energy per operation of: Purification Chamber
+# Default: 10
+# Range: > 0
+purificationChamber = 10
+#Energy per operation of: Energized Smelter
+# Default: 5
+# Range: > 0
+energizedSmelter = 5
+#Energy per operation of: Digital Miner
+# Default: 40
+# Range: > 0
+digitalMiner = 40
+#Energy per operation of: Electric Pump
+# Default: 2
+# Range: > 0
+electricPump = 2
+#Energy that can be transferred at once per charge operation.
+# Default: 1024
+# Range: > 0
+chargepad = 1024
+#Energy per operation of: Rotary Condensentrator
+# Default: 2
+# Range: > 0
+rotaryCondensentrator = 2
+#Energy per operation of: Chemical Oxidizer
+# Default: 15
+# Range: > 0
+chemicalOxidizer = 15
+#Energy per operation of: Chemical Infuser
+# Default: 15
+# Range: > 0
+chemicalInfuser = 15
+#Energy per operation of: Chemical Injection Chamber
+# Default: 15
+# Range: > 0
+chemicalInjectionChamber = 15
+#Energy per operation of: Precision Sawmill
+# Default: 5
+# Range: > 0
+precisionSawmill = 5
+#Energy per operation of: Chemical Dissolution Chamber
+# Default: 16
+# Range: > 0
+chemicalDissolutionChamber = 16
+#Energy per operation of: Chemical Washer
+# Default: 5
+# Range: > 0
+chemicalWasher = 5
+#Energy per operation of: Chemical Crystallizer
+# Default: 15
+# Range: > 0
+chemicalCrystallizer = 15
+#Energy per operation of: Seismic Vibrator
+# Default: 5
+# Range: > 0
+seismicVibrator = 5
+#Energy per operation of: Pressurized Reaction Chamber
+# Default: 2
+# Range: > 0
+pressurizedReactionBase = 2
+#Energy per operation of: Fluidic Plenisher
+# Default: 2
+# Range: > 0
+fluidicPlenisher = 2
+#Energy per operation of: Laser
+# Default: 20
+# Range: > 0
+laser = 20
+#Energy per operation of: Formulaic Assemblicator
+# Default: 5
+# Range: > 0
+formulaicAssemblicator = 5
+#Energy per operation of: Modification Station
+# Default: 10
+# Range: > 0
+modificationStation = 10
+#Energy per operation of: Isotopic Centrifuge
+# Default: 8
+# Range: > 0
+isotopicCentrifuge = 8
+#Energy per operation of: Nutritional Liquifier
+# Default: 8
+# Range: > 0
+nutritionalLiquifier = 8
+#Energy per operation of: Nucleosynthesizer
+# Default: 15
+# Range: > 0
+antiprotonicNucleosynthesizer = 15
+#Energy per operation of: Pigment Extractor
+# Default: 5
+# Range: > 0
+pigmentExtractor = 5
+#Energy per operation of: Pigment Mixer
+# Default: 5
+# Range: > 0
+pigmentMixer = 5
+#Energy per operation of: Painting Machine
+# Default: 5
+# Range: > 0
+paintingMachine = 5
+#Energy per chunk per tick.
+# Default: 15
+# Range: > 0
+dimensionalStabilizer = 15
+#If enabled, Chemical Dissolution Chambers, Chemical Injectors, and Purification Chambers will consume a semi randomized amount of chemical each operation.
+randomizedConsumption = true
+
+#Settings for configuring Teleporter Energy Usage
+[teleporter]
+	#Base energy cost for teleporting an entity.
+	# Default: 100
+	# Range: > 0
+	base = 100
+	#FE per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
+	# Default: 2
+	# Range: > 0
+	distance = 2
+	#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
+	# Default: 1000
+	# Range: > 0
+	dimensionPenalty = 1000

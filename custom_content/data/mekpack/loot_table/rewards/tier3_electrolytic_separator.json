@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:basic_chemical_tank"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:jetpack_armored"
+        }
+      ]
+    }
+  ]
+}

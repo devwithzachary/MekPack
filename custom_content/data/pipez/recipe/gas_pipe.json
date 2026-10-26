@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "AEA",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "A": "mekanism:alloy_infused",
+    "E": "mekanism:enriched_iron"
+  },
+  "result": {
+    "id": "pipez:gas_pipe",
+    "count": 16
+  }
+}

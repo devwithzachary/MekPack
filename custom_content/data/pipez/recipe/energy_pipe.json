@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "RER",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "R": "#c:storage_blocks/redstone",
+    "E": "mekanism:enriched_iron"
+  },
+  "result": {
+    "id": "pipez:energy_pipe",
+    "count": 16
+  }
+}

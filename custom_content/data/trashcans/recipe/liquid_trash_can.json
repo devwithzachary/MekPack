@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "B": "mekanism:basic_fluid_tank"
+  },
+  "result": {
+    "id": "trashcans:liquid_trash_can"
+  }
+}

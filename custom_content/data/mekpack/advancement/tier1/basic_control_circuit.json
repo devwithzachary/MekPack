@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:basic_control_circuit"
+    },
+    "title": {
+      "text": "Computational Logic"
+    },
+    "description": {
+      "text": "Fabricate a Basic Control Circuit using Infused Osmium."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier1/steel_ingot",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_control_circuit"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150,
+    "loot": [
+      "mekpack:rewards/tier1_basic_control_circuit"
+    ]
+  }
+}

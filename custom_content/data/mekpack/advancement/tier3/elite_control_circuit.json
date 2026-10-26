@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:elite_control_circuit"
+    },
+    "title": {
+      "text": "Quantum Computation Matrix"
+    },
+    "description": {
+      "text": "Fabricate Elite Control Circuits using Reinforced Alloys."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier3/reinforced_alloy",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:elite_control_circuit"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 350,
+    "loot": [
+      "mekpack:rewards/tier3_elite_control_circuit"
+    ]
+  }
+}

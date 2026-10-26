@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TA",
+    " OT",
+    "O  "
+  ],
+  "key": {
+    "T": "mekanism:teleportation_core",
+    "A": "mekanism:alloy_atomic",
+    "O": "#c:ingots/refined_obsidian"
+  },
+  "result": {
+    "id": "entangled:item"
+  }
+}

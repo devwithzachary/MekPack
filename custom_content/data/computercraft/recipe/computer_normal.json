@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "#c:ingots/steel",
+    "C": "mekanism:basic_control_circuit",
+    "G": "#c:glass_panes"
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SGS"
+  ],
+  "result": {
+    "id": "computercraft:computer_normal"
+  }
+}

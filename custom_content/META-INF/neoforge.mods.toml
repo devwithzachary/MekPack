@@ -1,0 +1,26 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/devwithzachary/MekPack/issues"
+
+[[mods]]
+    modId="mekpack"
+    version="0.0.1"
+    displayName="MekPack: Sovereign Spine"
+    displayURL="https://github.com/devwithzachary/MekPack"
+    authors="Zachary"
+    description="Core recipes, advancement progression, and Mekanism integration backbone for MekPack."
+
+[[dependencies.mekpack]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.8,)"
+    ordering="AFTER"
+    side="BOTH"

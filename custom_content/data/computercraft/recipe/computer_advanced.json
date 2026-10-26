@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": "mekanism:alloy_infused",
+    "C": "mekanism:advanced_control_circuit",
+    "G": "#c:glass_panes"
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AGA"
+  ],
+  "result": {
+    "id": "computercraft:computer_advanced"
+  }
+}

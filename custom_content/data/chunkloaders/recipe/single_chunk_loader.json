@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "ACA",
+    "SAS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "A": "mekanism:alloy_infused",
+    "C": "mekanism:basic_control_circuit"
+  },
+  "result": {
+    "id": "chunkloaders:single_chunk_loader",
+    "count": 1
+  }
+}

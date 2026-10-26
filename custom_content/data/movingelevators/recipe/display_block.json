@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "G": "#c:glass_blocks"
+  },
+  "result": {
+    "id": "movingelevators:display_block"
+  }
+}

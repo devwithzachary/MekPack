@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ORO",
+    "CUC",
+    "ORO"
+  ],
+  "key": {
+    "O": "#c:ingots/refined_obsidian",
+    "R": "mekanism:ultimate_control_circuit",
+    "C": "mekanism:teleportation_core",
+    "U": "pipez:advanced_upgrade"
+  },
+  "result": {
+    "id": "pipez:ultimate_upgrade",
+    "count": 1
+  }
+}

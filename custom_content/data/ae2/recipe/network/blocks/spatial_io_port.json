@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": "mekanism:teleportation_core",
+    "G": "ae2:fluix_glass_cable",
+    "I": "ae2:io_port",
+    "A": "mekanism:alloy_atomic"
+  },
+  "pattern": [
+    "TGT",
+    "GIG",
+    "TAT"
+  ],
+  "result": {
+    "id": "ae2:spatial_io_port"
+  }
+}

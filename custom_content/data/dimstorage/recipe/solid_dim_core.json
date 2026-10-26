@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": "mekanism:alloy_reinforced",
+    "A": "mekanism:advanced_control_circuit",
+    "C": "dimstorage:dim_core"
+  },
+  "pattern": [
+    "RAR",
+    "RCR",
+    "RAR"
+  ],
+  "result": {
+    "id": "dimstorage:solid_dim_core"
+  }
+}

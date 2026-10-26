@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:pellet_antimatter"
+    },
+    "title": {
+      "text": "Beyond the Standard Model"
+    },
+    "description": {
+      "text": "Synthesize a stable Antimatter Pellet from relativistic particle collisions."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier5/sps_multiblock",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:pellet_antimatter"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000,
+    "loot": [
+      "mekpack:rewards/tier5_antimatter_pellet"
+    ]
+  }
+}

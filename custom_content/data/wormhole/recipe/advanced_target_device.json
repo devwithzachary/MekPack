@@ -1,0 +1,17 @@
+{
+  "type": "wormhole:nbtrecipe",
+  "pattern": [
+    "  A",
+    "BCD",
+    "BBB"
+  ],
+  "key": {
+    "A": "mekanism:advanced_control_circuit",
+    "B": "#c:ingots/steel",
+    "C": "wormhole:target_device",
+    "D": "mekanism:energy_tablet"
+  },
+  "result": {
+    "id": "wormhole:advanced_target_device"
+  }
+}

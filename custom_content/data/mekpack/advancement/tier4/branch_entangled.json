@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "entangled:block"
+    },
+    "title": {
+      "text": "Spatial Entanglement"
+    },
+    "description": {
+      "text": "Bind machines and containers instantaneously across reality with Entangled Blocks."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier4/ultimate_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "entangled:block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "mekpack:rewards/tier4_branch_entangled"
+    ]
+  }
+}

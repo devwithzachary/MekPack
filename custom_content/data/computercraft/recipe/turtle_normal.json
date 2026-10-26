@@ -1,0 +1,23 @@
+{
+  "type": "computercraft:transform_shaped",
+  "category": "redstone",
+  "function": [
+    {
+      "type": "computercraft:copy_components",
+      "from": "computercraft:computer_normal"
+    }
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "C": "computercraft:computer_normal",
+    "B": "mekanism:basic_control_circuit"
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SBS"
+  ],
+  "result": {
+    "id": "computercraft:turtle_normal"
+  }
+}

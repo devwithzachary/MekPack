@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:basic_energy_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:teleportation_core"
+        }
+      ]
+    }
+  ]
+}

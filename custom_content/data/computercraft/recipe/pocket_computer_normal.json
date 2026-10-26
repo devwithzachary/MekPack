@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": "#c:ingots/steel",
+    "E": "mekanism:energy_tablet",
+    "G": "#c:glass_panes"
+  },
+  "pattern": [
+    "SSS",
+    "SES",
+    "SGS"
+  ],
+  "result": {
+    "id": "computercraft:pocket_computer_normal"
+  }
+}

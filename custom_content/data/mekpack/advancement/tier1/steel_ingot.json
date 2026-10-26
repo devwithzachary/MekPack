@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:ingot_steel"
+    },
+    "title": {
+      "text": "Tempered Ambition"
+    },
+    "description": {
+      "text": "Smelt Enriched Iron into durable Steel Ingots."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier1/metallurgic_infuser",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:ingot_steel"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "mekpack:rewards/tier1_steel_ingot"
+    ]
+  }
+}

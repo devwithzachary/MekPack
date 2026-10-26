@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "#c:ingots/steel",
+    "C": "ae2:calculation_processor",
+    "F": "ae2:fluix_glass_cable"
+  },
+  "pattern": [
+    "SCS",
+    "F F",
+    "SCS"
+  ],
+  "result": {
+    "id": "ae2:drive"
+  }
+}

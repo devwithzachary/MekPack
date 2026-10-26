@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": "#c:ingots/refined_obsidian",
+    "C": "mekanism:advanced_control_circuit",
+    "T": "mekanism:teleportation_core"
+  },
+  "pattern": [
+    "OCO",
+    "CTC",
+    "OCO"
+  ],
+  "result": {
+    "id": "dimstorage:dim_core"
+  }
+}

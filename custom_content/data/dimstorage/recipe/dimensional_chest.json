@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": "dimstorage:dim_wall",
+    "C": "dimstorage:solid_dim_core"
+  },
+  "pattern": [
+    "WWW",
+    "WCW",
+    "WWW"
+  ],
+  "result": {
+    "id": "dimstorage:dimensional_chest"
+  }
+}

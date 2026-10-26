@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:alloy_reinforced"
+    },
+    "title": {
+      "text": "Reinforced Kinetics"
+    },
+    "description": {
+      "text": "Infuse Alloys with Diamond to forge ultra-dense Reinforced Alloys."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier3/purification_chamber",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:alloy_reinforced"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "loot": [
+      "mekpack:rewards/tier3_reinforced_alloy"
+    ]
+  }
+}

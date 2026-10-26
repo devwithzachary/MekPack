@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:mekasuit_bodyarmor"
+    },
+    "title": {
+      "text": "Cybernetic Sovereign"
+    },
+    "description": {
+      "text": "Assemble the complete MekaSuit modular power armor system."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier5/antimatter_pellet",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:mekasuit_bodyarmor"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000,
+    "loot": [
+      "mekpack:rewards/tier5_mekasuit"
+    ]
+  }
+}

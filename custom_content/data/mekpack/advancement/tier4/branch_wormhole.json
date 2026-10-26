@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "wormhole:portal_stabilizer"
+    },
+    "title": {
+      "text": "Stargate Gateway"
+    },
+    "description": {
+      "text": "Deploy an interdimensional Wormhole Portal Stabilizer powered by quantum circuits."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier4/ultimate_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "wormhole:portal_stabilizer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "mekpack:rewards/tier4_branch_wormhole"
+    ]
+  }
+}

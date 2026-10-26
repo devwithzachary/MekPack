@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fission_reactor_casing"
+    },
+    "title": {
+      "text": "Splitting the Atom"
+    },
+    "description": {
+      "text": "Assemble an Industrial Multiblock Fission Reactor and achieve nuclear criticality."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier3/digital_miner",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:fission_reactor_casing"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "mekpack:rewards/tier4_fission_reactor"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:electrolytic_separator"
+    },
+    "title": {
+      "text": "Elemental Partition"
+    },
+    "description": {
+      "text": "Split water into pressurized Hydrogen and Oxygen with the Electrolytic Separator."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier2/advanced_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:electrolytic_separator"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250,
+    "loot": [
+      "mekpack:rewards/tier3_electrolytic_separator"
+    ]
+  }
+}

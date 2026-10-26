@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:sps_casing"
+    },
+    "title": {
+      "text": "Supercritical Phase Shifter"
+    },
+    "description": {
+      "text": "Construct the colossal SPS particle accelerator to polarize matter."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier5/fusion_reactor",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:sps_casing"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2000,
+    "loot": [
+      "mekpack:rewards/tier5_sps_multiblock"
+    ]
+  }
+}

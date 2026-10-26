@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "mekanism:upgrade_type": "mekanism:speed"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "mekanism:upgrade_type": "mekanism:speed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "mekanism:upgrade_type": "mekanism:energy"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "mekanism:upgrade_type": "mekanism:energy"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

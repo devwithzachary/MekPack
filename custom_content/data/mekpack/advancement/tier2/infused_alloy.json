@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:alloy_infused"
+    },
+    "title": {
+      "text": "Alloy Dynamics"
+    },
+    "description": {
+      "text": "Infuse Iron with Redstone to synthesize Infused Alloys."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier2/enrichment_chamber",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:alloy_infused"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200,
+    "loot": [
+      "mekpack:rewards/tier2_infused_alloy"
+    ]
+  }
+}

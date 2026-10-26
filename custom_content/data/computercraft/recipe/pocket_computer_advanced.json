@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": "mekanism:alloy_infused",
+    "E": "mekanism:energy_tablet",
+    "G": "#c:glass_panes"
+  },
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AGA"
+  ],
+  "result": {
+    "id": "computercraft:pocket_computer_advanced"
+  }
+}

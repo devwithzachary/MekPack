@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:wind_generator"
+    },
+    "title": {
+      "text": "High-Altitude Kinetic Harvest"
+    },
+    "description": {
+      "text": "Deploy a Wind Generator at high altitude for sustained clean energy."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier1/basic_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:wind_generator"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150,
+    "loot": [
+      "mekpack:rewards/tier1_wind_generator"
+    ]
+  }
+}

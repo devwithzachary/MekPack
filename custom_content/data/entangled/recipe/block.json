@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TAT",
+    "ASA",
+    "TAT"
+  ],
+  "key": {
+    "T": "mekanism:teleportation_core",
+    "A": "mekanism:alloy_atomic",
+    "S": "mekanism:steel_casing"
+  },
+  "result": {
+    "id": "entangled:block"
+  }
+}

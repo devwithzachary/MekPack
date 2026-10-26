@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "ae2:controller"
+    },
+    "title": {
+      "text": "The Digital Matrix"
+    },
+    "description": {
+      "text": "Construct the ME Controller mainframe powered by Steel Casings and Advanced Circuits."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier2/advanced_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:controller"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250,
+    "loot": [
+      "mekpack:rewards/tier2_branch_ae2_controller"
+    ]
+  }
+}

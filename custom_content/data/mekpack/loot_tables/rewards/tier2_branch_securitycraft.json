@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "securitycraft:retinal_scanner"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "securitycraft:door_indestructible_iron_item"
+        }
+      ]
+    }
+  ]
+}

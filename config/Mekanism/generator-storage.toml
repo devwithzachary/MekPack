@@ -1,0 +1,20 @@
+#Base energy capacity of: Heat Generator
+# Default: 240
+# Range: 1 ~ 9223372036854775807
+heatGenerator = 240
+#Base energy capacity of: Bio-Generator
+# Default: 600
+# Range: 1 ~ 9223372036854775807
+bioGenerator = 600
+#Base energy capacity of: Solar Generator
+# Default: 40
+# Range: 1 ~ 9223372036854775807
+solarGenerator = 40
+#Base energy capacity of: Advanced Solar Generator
+# Default: 240
+# Range: 1 ~ 9223372036854775807
+advancedSolarGenerator = 240
+#Base energy capacity of: Wind Generator
+# Default: 100
+# Range: 1 ~ 9223372036854775807
+windGenerator = 100

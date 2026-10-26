@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ANA",
+    "NCN",
+    "ANA"
+  ],
+  "key": {
+    "A": "mekanism:alloy_infused",
+    "C": "mekanism:basic_control_circuit",
+    "N": "#c:nuggets/iron"
+  },
+  "result": {
+    "id": "pipez:basic_upgrade",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:ultimate_control_circuit"
+    },
+    "title": {
+      "text": "Transcendent Logic Core"
+    },
+    "description": {
+      "text": "Fabricate the Ultimate Control Circuit\u2014the apex of computational technology."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier4/atomic_alloy",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:ultimate_control_circuit"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 800,
+    "loot": [
+      "mekpack:rewards/tier4_ultimate_control_circuit"
+    ]
+  }
+}

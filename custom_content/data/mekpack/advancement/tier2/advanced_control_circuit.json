@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:advanced_control_circuit"
+    },
+    "title": {
+      "text": "Advanced Silicon Architecture"
+    },
+    "description": {
+      "text": "Upgrade basic logic with Infused Alloys into Advanced Control Circuits."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier2/infused_alloy",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:advanced_control_circuit"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250,
+    "loot": [
+      "mekpack:rewards/tier2_advanced_control_circuit"
+    ]
+  }
+}

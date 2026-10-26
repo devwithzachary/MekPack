@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "C": "mekanism:steel_casing"
+  },
+  "result": {
+    "id": "trashcans:item_trash_can"
+  }
+}

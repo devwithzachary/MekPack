@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "mekanism:advanced_control_circuit",
+    "C": "ae2:fluix_block",
+    "S": "mekanism:steel_casing"
+  },
+  "pattern": [
+    "ACA",
+    "CSC",
+    "ACA"
+  ],
+  "result": {
+    "id": "ae2:controller"
+  }
+}

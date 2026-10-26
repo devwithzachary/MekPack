@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "securitycraft:keypad_item"
+    },
+    "title": {
+      "text": "Biometric Security"
+    },
+    "description": {
+      "text": "Secure your industrial compound with Circuit-driven Keypads and Laser Grids."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier2/advanced_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "securitycraft:keypad_item"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150,
+    "loot": [
+      "mekpack:rewards/tier2_branch_securitycraft"
+    ]
+  }
+}

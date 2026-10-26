@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "pipez:item_pipe"
+    },
+    "title": {
+      "text": "High-Throughput Conduits"
+    },
+    "description": {
+      "text": "Craft Steel-Reinforced Pipes to automate item, fluid, and energy transport."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier1/basic_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pipez:item_pipe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "mekpack:rewards/tier1_branch_pipez"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": "mekanism:elite_control_circuit",
+    "top": "ae2:engineering_processor_press"
+  },
+  "mode": "inscribe",
+  "result": {
+    "id": "ae2:printed_engineering_processor"
+  }
+}

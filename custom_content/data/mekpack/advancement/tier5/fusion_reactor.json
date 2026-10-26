@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "title": {
+      "text": "Harnessing the Sun"
+    },
+    "description": {
+      "text": "Ignite a D-T Fusion Reactor with high-energy Laser Amplifiers."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier4/ultimate_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:fusion_reactor_controller"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500,
+    "loot": [
+      "mekpack:rewards/tier5_fusion_reactor"
+    ]
+  }
+}

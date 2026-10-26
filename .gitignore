@@ -1,0 +1,16 @@
+# Local testing instance directory (managed by tools/setup_instance.py / Prism Launcher)
+/minecraft/
+
+# Build and export distributions
+dist/
+__pycache__/
+*.pyc
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+minecraft/downloads/
+logs/
+*.log

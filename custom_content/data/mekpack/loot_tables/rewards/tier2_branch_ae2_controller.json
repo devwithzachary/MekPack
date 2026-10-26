@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ae2:drive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:terminal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:item_storage_cell_4k",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

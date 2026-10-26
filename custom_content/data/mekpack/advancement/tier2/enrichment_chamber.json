@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:enrichment_chamber"
+    },
+    "title": {
+      "text": "Molecular Multiplication"
+    },
+    "description": {
+      "text": "Double raw ore yields and refine elements with the Enrichment Chamber."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier1/basic_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:enrichment_chamber"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200,
+    "loot": [
+      "mekpack:rewards/tier2_enrichment_chamber"
+    ]
+  }
+}

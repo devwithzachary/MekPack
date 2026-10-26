@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:turbine_casing"
+    },
+    "title": {
+      "text": "Megawatt Cyclone"
+    },
+    "description": {
+      "text": "Condense reactor steam through an Industrial Turbine for colossal power output."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier4/fission_reactor",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:turbine_casing"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 600,
+    "loot": [
+      "mekpack:rewards/tier4_industrial_turbine"
+    ]
+  }
+}

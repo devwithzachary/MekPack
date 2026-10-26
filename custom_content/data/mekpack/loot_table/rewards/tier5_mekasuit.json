@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:module",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "mekanism:module_type": "mekanism:gravitational_modulating_unit",
+                "minecraft:rarity": "epic"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "mekanism:module_type": "mekanism:gravitational_modulating_unit",
+                "minecraft:rarity": "epic"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

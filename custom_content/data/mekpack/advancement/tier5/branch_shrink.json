@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "shrink:shrinking_device"
+    },
+    "title": {
+      "text": "Subatomic Dimension"
+    },
+    "description": {
+      "text": "Compress your physical form to microscopic scale with the Quantum Shrinking Device."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier5/antimatter_pellet",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "shrink:shrinking_device"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2500,
+    "loot": [
+      "mekpack:rewards/tier5_branch_shrink"
+    ]
+  }
+}

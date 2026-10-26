@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": "dimstorage:dim_wall",
+    "T": "mekanism:basic_fluid_tank",
+    "C": "dimstorage:solid_dim_core"
+  },
+  "pattern": [
+    "WTW",
+    "TCT",
+    "WTW"
+  ],
+  "result": {
+    "id": "dimstorage:dimensional_tank"
+  }
+}

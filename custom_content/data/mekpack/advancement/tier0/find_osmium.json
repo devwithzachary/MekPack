@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:raw_osmium"
+    },
+    "title": {
+      "text": "The Blue Vein"
+    },
+    "description": {
+      "text": "Prospect and mine Raw Osmium from planetary deposits."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:root",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:raw_osmium"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "mekpack:rewards/tier0_find_osmium"
+    ]
+  }
+}

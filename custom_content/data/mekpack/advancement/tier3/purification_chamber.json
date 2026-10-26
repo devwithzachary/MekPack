@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:purification_chamber"
+    },
+    "title": {
+      "text": "Tri-Ore Refining (3x)"
+    },
+    "description": {
+      "text": "Inject Oxygen into raw ore to achieve 3x tri-chemical multiplication."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mekpack:tier3/electrolytic_separator",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:purification_chamber"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "loot": [
+      "mekpack:rewards/tier3_purification_chamber"
+    ]
+  }
+}

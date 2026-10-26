@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SPS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "C": "mekanism:basic_control_circuit",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "movingelevators:elevator_block"
+  }
+}

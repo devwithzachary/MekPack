@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "movingelevators:elevator_block"
+    },
+    "title": {
+      "text": "Vertical Transit"
+    },
+    "description": {
+      "text": "Construct a multi-floor Elevator Controller for your industrial compound."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier1/basic_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "movingelevators:elevator_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "mekpack:rewards/tier1_branch_moving_elevators"
+    ]
+  }
+}

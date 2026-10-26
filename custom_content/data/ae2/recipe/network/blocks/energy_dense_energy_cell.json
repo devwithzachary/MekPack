@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "ae2:energy_cell",
+    "C": "mekanism:basic_energy_cube",
+    "A": "mekanism:alloy_reinforced"
+  },
+  "pattern": [
+    "ECE",
+    "CAC",
+    "ECE"
+  ],
+  "result": {
+    "id": "ae2:dense_energy_cell"
+  }
+}

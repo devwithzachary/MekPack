@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "AEA",
+    "SAS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "A": "mekanism:alloy_infused",
+    "E": "mekanism:basic_energy_cube"
+  },
+  "result": {
+    "id": "trashcans:energy_trash_can"
+  }
+}

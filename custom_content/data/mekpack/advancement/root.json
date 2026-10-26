@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:steel_casing"
+    },
+    "title": {
+      "text": "MekPack: Future Frontiers"
+    },
+    "description": {
+      "text": "Welcome to the Sovereign Industrial Spine. Forge your path from primitive metallurgy to supercritical reality."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "mekpack:rewards/root"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "dimstorage:dimensional_chest"
+    },
+    "title": {
+      "text": "Cross-Planetary Frequency"
+    },
+    "description": {
+      "text": "Link wireless cross-dimensional storage channels with Dimensional Chests and Tanks."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier3/elite_control_circuit",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dimstorage:dimensional_chest"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250,
+    "loot": [
+      "mekpack:rewards/tier3_branch_dimstorage"
+    ]
+  }
+}

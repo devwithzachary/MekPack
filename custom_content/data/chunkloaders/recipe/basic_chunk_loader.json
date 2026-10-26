@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "CLC",
+    "ACA"
+  ],
+  "key": {
+    "A": "mekanism:alloy_reinforced",
+    "C": "mekanism:advanced_control_circuit",
+    "L": "chunkloaders:single_chunk_loader"
+  },
+  "result": {
+    "id": "chunkloaders:basic_chunk_loader"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "TST",
+    "AEA"
+  ],
+  "key": {
+    "A": "#c:ingots/steel",
+    "C": "mekanism:elite_control_circuit",
+    "T": "mekanism:teleportation_core",
+    "S": "mekanism:steel_casing",
+    "E": "mekanism:energy_tablet"
+  },
+  "result": {
+    "id": "wormhole:portal_stabilizer"
+  }
+}

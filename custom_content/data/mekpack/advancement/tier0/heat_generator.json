@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:heat_generator"
+    },
+    "title": {
+      "text": "Thermal Inception"
+    },
+    "description": {
+      "text": "Harness passive and burning thermal energy using the Heat Generator."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "mekpack:tier0/find_osmium",
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:heat_generator"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "mekpack:rewards/tier0_heat_generator"
+    ]
+  }
+}

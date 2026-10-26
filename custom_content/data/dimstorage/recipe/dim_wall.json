@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "#c:ingots/steel",
+    "A": "mekanism:alloy_infused",
+    "P": "minecraft:ender_pearl"
+  },
+  "pattern": [
+    "SAS",
+    "APA",
+    "SAS"
+  ],
+  "result": {
+    "count": 4,
+    "id": "dimstorage:dim_wall"
+  }
+}

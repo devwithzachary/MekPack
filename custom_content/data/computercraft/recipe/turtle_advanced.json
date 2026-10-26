@@ -1,0 +1,23 @@
+{
+  "type": "computercraft:transform_shaped",
+  "category": "redstone",
+  "function": [
+    {
+      "type": "computercraft:copy_components",
+      "from": "computercraft:computer_advanced"
+    }
+  ],
+  "key": {
+    "A": "mekanism:alloy_infused",
+    "C": "computercraft:computer_advanced",
+    "B": "mekanism:advanced_control_circuit"
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "ABA"
+  ],
+  "result": {
+    "id": "computercraft:turtle_advanced"
+  }
+}

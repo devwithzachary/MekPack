@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "AOA",
+    "SAS"
+  ],
+  "key": {
+    "S": "#c:ingots/steel",
+    "A": "mekanism:alloy_infused",
+    "O": "#c:obsidians"
+  },
+  "result": {
+    "id": "wormhole:portal_frame",
+    "count": 4
+  }
+}
