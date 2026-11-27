@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanismgenerators:fission_reactor_casing"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Splitting the Atom",
+    "subtitle": "Tier 4 \u2014 Fission Reactor",
+    "description": [
+      "Assemble an Industrial Multiblock Fission Reactor to generate Polonium, Plutonium, and superheated steam."
+    ],
+    "groups": {
+      "Tier 4: Nuclear Power & Relays": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "fission": {
+      "type": "theseus:item",
+      "title": "Craft Fission Reactor Casings",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanismgenerators:fission_reactor_casing"
+      },
+      "item": "mekanismgenerators:fission_reactor_casing",
+      "amount": 16,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Hazmat Mask",
+      "item": {
+        "id": "mekanism:hazmat_mask",
+        "count": 1
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Hazmat Gown",
+      "item": {
+        "id": "mekanism:hazmat_gown",
+        "count": 1
+      }
+    },
+    "item_2": {
+      "type": "theseus:item",
+      "title": "1x Hazmat Pants",
+      "item": {
+        "id": "mekanism:hazmat_pants",
+        "count": 1
+      }
+    },
+    "item_3": {
+      "type": "theseus:item",
+      "title": "1x Hazmat Boots",
+      "item": {
+        "id": "mekanism:hazmat_boots",
+        "count": 1
+      }
+    },
+    "item_4": {
+      "type": "theseus:item",
+      "title": "16x Radioactive Waste Barrel",
+      "item": {
+        "id": "mekanism:radioactive_waste_barrel",
+        "count": 16
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "500 XP",
+      "xptype": "points",
+      "amount": 500
+    }
+  },
+  "dependencies": [
+    "digital_miner"
+  ],
+  "settings": {
+    "unlockNotification": true
+  }
+}

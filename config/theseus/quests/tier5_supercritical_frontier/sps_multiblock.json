@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:sps_casing"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Supercritical Phase Shifter",
+    "subtitle": "Tier 5 \u2014 SPS Accelerator",
+    "description": [
+      "Construct the colossal SPS particle accelerator to polarize Polonium into Antimatter."
+    ],
+    "groups": {
+      "Tier 5: Supercritical Frontier": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "sps": {
+      "type": "theseus:item",
+      "title": "Craft SPS Casings",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:sps_casing"
+      },
+      "item": "mekanism:sps_casing",
+      "amount": 16,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Supercharged Coil",
+      "item": {
+        "id": "mekanism:supercharged_coil",
+        "count": 4
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "2000 XP",
+      "xptype": "points",
+      "amount": 2000
+    }
+  },
+  "dependencies": [
+    "fusion_reactor"
+  ]
+}

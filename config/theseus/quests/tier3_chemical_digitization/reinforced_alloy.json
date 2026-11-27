@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:alloy_reinforced"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Reinforced Kinetics",
+    "subtitle": "Tier 3 \u2014 Reinforced Alloy",
+    "description": [
+      "Infuse Infused Alloys with Diamond to forge ultra-dense Reinforced Alloys."
+    ],
+    "groups": {
+      "Tier 3: Chemical Digitization": {
+        "position": [
+          300,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "reinf": {
+      "type": "theseus:item",
+      "title": "Synthesize Reinforced Alloy",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:alloy_reinforced"
+      },
+      "item": "mekanism:alloy_reinforced",
+      "amount": 8,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Alloy Reinforced",
+      "item": {
+        "id": "mekanism:alloy_reinforced",
+        "count": 4
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "2x Advanced Tier Installer",
+      "item": {
+        "id": "mekanism:advanced_tier_installer",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "300 XP",
+      "xptype": "points",
+      "amount": 300
+    }
+  },
+  "dependencies": [
+    "purification_chamber"
+  ]
+}

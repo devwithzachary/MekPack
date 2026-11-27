@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:qio_drive_array"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Post-Scarcity Quantum Grid",
+    "subtitle": "Tier 5 \u2014 QIO Storage",
+    "description": [
+      "Deploy a QIO Drive Array to store billions of items on subatomic quantum frequencies."
+    ],
+    "groups": {
+      "Tier 5: Supercritical Frontier": {
+        "position": [
+          450,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "qio": {
+      "type": "theseus:item",
+      "title": "Craft QIO Drive Array",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:qio_drive_array"
+      },
+      "item": "mekanism:qio_drive_array",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Qio Drive Supermassive",
+      "item": {
+        "id": "mekanism:qio_drive_supermassive",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "5000 XP",
+      "xptype": "points",
+      "amount": 5000
+    }
+  },
+  "dependencies": [
+    "antimatter_pellet"
+  ]
+}

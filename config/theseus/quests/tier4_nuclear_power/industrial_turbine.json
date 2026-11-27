@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanismgenerators:turbine_casing"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/gears.png",
+    "title": "Megawatt Cyclone",
+    "subtitle": "Tier 4 \u2014 Industrial Turbine",
+    "description": [
+      "Condense reactor steam through an Industrial Turbine for colossal power output."
+    ],
+    "groups": {
+      "Tier 4: Nuclear Power & Relays": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "turbine": {
+      "type": "theseus:item",
+      "title": "Craft Turbine Casings",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanismgenerators:turbine_casing"
+      },
+      "item": "mekanismgenerators:turbine_casing",
+      "amount": 16,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Ultimate Energy Cube",
+      "item": {
+        "id": "mekanism:ultimate_energy_cube",
+        "count": 1
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "2x Elite Tier Installer",
+      "item": {
+        "id": "mekanism:elite_tier_installer",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "600 XP",
+      "xptype": "points",
+      "amount": 600
+    }
+  },
+  "dependencies": [
+    "fission_reactor"
+  ]
+}

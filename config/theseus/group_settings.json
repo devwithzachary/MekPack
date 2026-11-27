@@ -1,0 +1,38 @@
+{
+  "Tier 0: Ground Zero": {
+    "icon": "mekanism:raw_osmium",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  },
+  "Tier 1: The Spark of Steel": {
+    "icon": "mekanism:metallurgic_infuser",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  },
+  "Tier 2: Kinetic Automation": {
+    "icon": "mekanism:enrichment_chamber",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  },
+  "Tier 3: Chemical Digitization": {
+    "icon": "mekanism:purification_chamber",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  },
+  "Tier 4: Nuclear Power & Relays": {
+    "icon": "mekanismgenerators:fission_reactor_casing",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  },
+  "Tier 5: Supercritical Frontier": {
+    "icon": "mekanism:pellet_antimatter",
+    "iconEnabled": true,
+    "background": "",
+    "backgroundOpacity": 100
+  }
+}

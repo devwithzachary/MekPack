@@ -1,153 +1,103 @@
-# ⚡ MekPack: Future Frontiers (Minecraft 26.3)
+# MekPack: Future Frontiers
 
-A high-tech, futuristic sci-fi modpack centered around **Mekanism 10.8** on **Minecraft 26.3 (NeoForge)**.
+A sci-fi tech modpack for **Minecraft 26.3 (NeoForge 26.3.0.110)** built around **Mekanism 10.8**. Instead of letting companion mods compete with or skip Mekanism's tech tree, MekPack ties Applied Energistics 2, Pipez, CC: Tweaked, SecurityCraft, dimensional storage, and portals directly into Mekanism progression.
 
-Built in preparation for the official public release of Mekanism 26.3, equipped with local dev builds from the upstream repository and a curated suite of sci-fi tech, automation, planetary world generation, optimization, and QoL companion mods.
-
-> ⚡ **The Sovereign Spine Directive**: Unlike loose kitchen-sink modpacks, MekPack binds every companion mod directly into Mekanism's technological progression. You cannot bypass Mekanism with external mods; Applied Energistics 2, Pipez, ComputerCraft, and quantum dimensional logistics all demand proportional Mekanism alloys, control circuits, and industrial machinery.
-> 
-> Detailed documentation:
-> - 📜 [Modpack Philosophy & Core Tenets](docs/MODPACK_PHILOSOPHY.md)
-> - 🧩 [Companion Mod Integration Matrix](docs/INTEGRATION_MATRIX.md)
-> - ⚙️ [Recipe Customization & Technical Guide](docs/RECIPE_CUSTOMIZATION_GUIDE.md)
-> - 🏆 [Custom Achievement Flow Blueprint](docs/ACHIEVEMENT_FLOW_BLUEPRINT.md)
-> - 🚀 [Public Distribution & Publishing Guide](docs/DISTRIBUTION_GUIDE.md)
-> - 🤖 [AI & Contributor Core Guidelines](AGENTS.md)
+> **Note on AI Assistance:** MekPack is a personal passion project maintained with **AI assistance** for updating mod packages, resolving version and dependency conflicts, managing startup and crash errors, and wiring configs, custom recipes, and quests on the cutting-edge Minecraft 26.3 ecosystem.
 
 ---
 
-## 🚀 Key Features & Mod Suite
+## How to Try It
 
-### 1. The Core Industrial Engine: Mekanism
-- **Mekanism (Core)**: 5x Chemical Ore Processing, Digital Miner, Supercritical Phase Shifter (SPS), Antimatter generation, QIO Quantum Storage, and MekaSuit modular armor.
-- **Mekanism Generators**: Advanced Solar Generators, Wind Turbines, Gas-Burning Generators, Industrial Fission & Fusion Reactors, and Turbine assemblies.
-- **Mekanism Tools**: Refined Obsidian, Osmium, Lapis, and Glowstone tools and armors.
-- **Mekanism Additions**: Baby skeletons, voice dispensers, and colorful plastic building blocks.
+### Option 1: Import a Release (Recommended)
+1. Download the latest release from [GitHub Releases](https://github.com/devwithzachary/MekPack/releases):
+   - `MekPack-26.3-0.0.2.mrpack` for Prism Launcher, Modrinth App, or ATLauncher.
+   - `MekPack-26.3-0.0.2-Prism.zip` for a self-contained Prism Launcher import.
+2. In your launcher, click **Add Instance -> Import** and select the downloaded file.
+3. Make sure **Java 25** is selected and **6-8 GB of RAM** is allocated.
+4. Launch the game and open the **Theseus Quest Book** to follow the 6-tier progression tree.
 
-### 2. Automation & Sci-Fi Systems
-- **Applied Energistics 2 (`ae2`)**: ME Network, Quantum Network Bridges, Spatial Storage, Autocrafting, and ME Terminals.
-- **CC: Tweaked**: Programmable Lua supercomputers and monitors. Includes a built-in Mekanism reactor & energy matrix telemetry script (`config/cc-tweaked/scripts/mek_monitor.lua`).
-- **SecurityCraft**: High-security facilities, laser tripwires, retinal scanners, keypad doors, bounce pads, and alarm systems.
-- **Moving Elevators**: Multi-floor futuristic elevators with call buttons and speed control.
-- **Pipez**: High-throughput item, fluid, gas, and energy transport cables.
-- **DimStorage & Entangled & Wormhole**: Quantum frequency interdimensional tanks, chests, and portal networks.
-- **Shrink**: Personal quantum resizing gadget for inspecting microcircuits and compact base routing.
-- **Chunk Loaders**: Persistent industrial chunk loading across dimensions.
-- **Trash Cans & Item Collectors**: Automated waste voiding and vacuum pickup.
-
-### 3. Sci-Fi Worldgen, Dimensions & Structures
-- **The Lost Cities**: Massive procedural abandoned cyberpunk metropolis dimension with skyscrapers, highways, subways, and ruins ripe for industrial reclamation.
-- **Terralith & Tectonic**: Dramatic planetary terrain overhaul featuring colossal cliffs, volcanic calderas, underground rivers, and exotic biomes tailored for epic factories.
-- **Incendium**: Nether technological and pipeline overhaul featuring mechanical magma facilities, geothermal vents, and infernal research ruins.
-- **Nullscape**: The End transformed into an alien void frontier with floating crystal spires, nebula skies, and hazardous terrain.
-- **Structory & Structory Towers**: Atmospheric outpost ruins, antenna arrays, transmission towers, and remote relay stations scattered across planets.
-
-### 4. Visuals, Optimization & HUD
-- **Sodium & Iris**: Next-generation rendering engine with high-performance shader pack support.
-- **FerriteCore, Lithium, ImmediatelyFast, More Culling, Entity Culling**: Extreme performance optimizations ensuring smooth 144+ FPS even with massive automated factories.
-- **Just Enough Items (JEI)** & **Jade**: Full chemical, fluid, energy, and block state HUD inspections.
-- **Xaero's Minimap & World Map**: High-tech radar and planetary mapping.
-- **Curios API & Companion Libraries**: Accessory slots for jetpacks and scuba gear, plus required runtime libraries (ForgeConfigAPIPort, SuperMartijn642's Config & Core Libs, EdivadLib, PolyLib, GuideME).
-
-### 5. Progression & Quest System
-- **Better Advancements & Advancement Plaques**: Structured 6-chapter sci-fi progression tree with full-screen zoomable interface, custom line links, inventory shortcut button, and animated celebration plaques upon completing milestones.
-- **MekPack Sovereign Spine**: 33 milestones guiding you from Tier 0 Osmium prospecting through to Tier 5 Supercritical SPS Antimatter synthesis, with companion mod wings (AE2, Pipez, ComputerCraft, SecurityCraft, DimStorage, Entangled, Wormhole, Shrink) and custom reward loot tables.
-- **FTB Quests Standby**: Standby generator (`tools/generate_quests.py`) ready for deployment once an official 26.3 FTB build is released.
-
----
-
-## 📁 Repository Structure
-
-The repository is organized strictly as a clean modpack source distribution:
-
-```
-├── config/              # Curated mod configurations
-├── resourcepacks/       # User resourcepacks directory
-├── custom_content/      # Data pack recipes, advancements, loot tables
-├── custom_mods/         # Mekanism & MekPackContent jars
-├── tools/               # Automation & maintenance scripts
-├── instance.cfg         # Prism Launcher instance configuration
-├── mmc-pack.json        # Component versions (MC 26.3, NeoForge 26.3.0.95)
-├── resolved_mods.json   # Mod manifest with SHA-512 hashes and download URLs
-└── minecraft/           # [GITIGNORED] Local test environment & runtime files
-```
-
-The runtime testing folder `minecraft/` is completely excluded from git tracking to prevent save games, logs, player caches, or binary jars from bloating the repo.
-
----
-
-## 🎮 Playing & Testing via Prism Launcher
-
-The modpack repository is pre-configured and directly linked to your local Prism Launcher:
-
-- **Instance Name**: `MekPack 26.3 (Sci-Fi Edition)`
-- **Instance Folder**: `~/.local/share/PrismLauncher/instances/MekPack-26.3`
-- **Configured Java**: Microsoft Java 25.0.1 LTS (`java-runtime-epsilon`)
-- **Memory**: 8 GB Allocated (Optimized G1GC args configured)
-
-### Setup Local Environment
-If setting up a fresh clone, run:
+### Option 2: Build and Run from Source
 ```bash
+git clone https://github.com/devwithzachary/MekPack.git
+cd MekPack
 python3 tools/setup_instance.py
 ```
-This automatically symlinks `config/` and `resourcepacks/`, links custom Mekanism builds, compiles custom datapack content, and downloads all companion mods.
-
-### Launching
-- **GUI**: Open Prism Launcher and double-click **MekPack 26.3 (Sci-Fi Edition)**.
-- **CLI**:
-  ```bash
-  prismlauncher --launch MekPack-26.3
-  ```
+This links `config/` and `resourcepacks/` into `minecraft/`, generates the quest and advancement trees, builds the custom content pack, and downloads all 49 companion mods from Modrinth with SHA-512 verification. You can then point Prism Launcher or MultiMC at the directory and launch with NeoForge `26.3.0.110` and Java 25.
 
 ---
 
-## 🛠️ Management & Automation Tools
+## What's Inside the Pack
 
-In `tools/`:
+### Mekanism at the Center
+- **Mekanism, Generators, Tools, and Additions**: 5x ore processing, Digital Miner, Fission and Fusion Reactors, Industrial Turbine, Supercritical Phase Shifter (SPS), Antimatter synthesis, QIO storage, and the MekaSuit.
+- Because Mekanism does not yet have an official public release for Minecraft 26.3 on Modrinth, MekPack currently bundles dev builds compiled from Mekanism's upstream `26.3` branch.
 
-### 1. Setup Instance (`tools/setup_instance.py`)
-Prepares the local test environment (`minecraft/`) with symlinks to `config/` and `resourcepacks/`, downloads all companion mods, copies custom Mekanism builds, and applies compatibility patches.
+### Guided 6-Tier Quest Progression
+- **Theseus Quests**: An in-game 6-chapter, 33-milestone quest book with automatic item-collection tasks, item and XP rewards, and branching wings for companion mods.
+- **Better Advancements & Advancement Plaques**: A full-screen zoomable advancement tree with celebration plaques as you unlock each tier:
+  - **Tier 0 - Ground Zero**: Osmium prospecting and basic Heat Generators.
+  - **Tier 1 - The Spark of Steel**: Metallurgic Infuser, Steel, Basic Control Circuits, Wind Turbines, Pipez, CC: Tweaked, Moving Elevators, and Chunk Loaders.
+  - **Tier 2 - Kinetic Automation**: Enrichment Chamber (2x ore), Infused Alloys, Advanced Circuits, AE2 ME Controller and basic storage, and SecurityCraft keypads.
+  - **Tier 3 - Chemical Digitization**: Electrolytic Separator, Purification Chamber (3x ore), Reinforced Alloys, Elite Circuits, Digital Miner, and DimStorage.
+  - **Tier 4 - Nuclear Power & Relays**: Fission Reactor, Industrial Turbine, Atomic Alloys, Ultimate Circuits, Entangled blocks, and Wormhole portals.
+  - **Tier 5 - Supercritical Frontier**: Fusion Reactor, SPS Antimatter production, MekaSuit, QIO Drive Array, and Shrink.
 
-### 2. Update Mekanism (`tools/update_mekanism.py`)
-Checks upstream GitHub (`mekanism/Mekanism` branch `26.3`) and Modrinth:
-- While 26.3 is in development: pulls latest commits and recompiles the local jars into `custom_mods/`.
-- When the Mekanism team publishes the official public 26.3 build: automatically downloads official release jars, verifies hashes, and cleans up dev jars.
-```bash
-python3 tools/update_mekanism.py
-```
+### Companion Tech & Logistics
+- **Applied Energistics 2 (`ae2`)**: ME Networks, autocrafting, spatial storage, and wireless bridges gated behind Mekanism alloys and circuits.
+- **CC: Tweaked (`cc-tweaked`)**: Programmable Lua computers and monitors, including a built-in Mekanism reactor and energy matrix telemetry script (`config/cc-tweaked/scripts/mek_monitor.lua`).
+- **Pipez**: High-throughput item, fluid, gas, and energy pipes with tiered upgrades matching Mekanism circuits.
+- **SecurityCraft**: Keypads, retinal scanners, laser grids, and reinforced base defenses.
+- **Moving Elevators, DimStorage, Entangled, Wormhole, Shrink, Chunk Loaders, Trash Cans, and Item Collectors**: Base transit, cross-dimensional storage and teleportation, shrinking, and automation utilities.
 
-### 3. Export for Release (`tools/export_pack.py`)
-Builds distributable release packages directly into `dist/`:
-- `MekPack-26.3-0.0.1-Prism.zip`: Importable by Prism Launcher, MultiMC, or ATLauncher.
-- `MekPack-26.3-0.0.1.mrpack`: Modrinth modpack format with hash manifests.
-```bash
-python3 tools/export_pack.py
-```
+### Worldgen & Exploration
+- **The Lost Cities**: Procedural abandoned metropolis dimension with skyscrapers, highways, and subways.
+- **Terralith & Tectonic**: Overworld terrain and biome overhaul with dramatic cliffs, calderas, and valleys.
+- **Incendium & Nullscape**: Overhauled Nether and End dimensions.
+- **Structory & Structory Towers**: Scattered ruins, outposts, and transmission towers.
 
-### 4. Progression & Advancements Generation (`tools/generate_advancements.py`)
-Generates the synced datapack advancements and reward loot tables across all 6 progression tiers:
-```bash
-python3 tools/generate_advancements.py
-```
-
-### 5. Mod Resolver & Downloader (`tools/mod_resolver.py` & `tools/download_mods.py`)
-Resolves candidate companion mods from Modrinth for NeoForge 26.3, checks dependencies, and downloads them with SHA-512 validation.
-
----
-
-## 💡 About This Project & AI Collaboration
-
-This modpack has long been a dream project of mine, but finding the extensive time required to balance recipes, tune configurations, and architect progression alongside daily life has always been a barrier. With the emergence of modern AI coding assistants, I was finally able to bring this vision into reality within what little free time I have.
-
-MekPack is primarily crafted for my own personal enjoyment and love for Mekanism's industrial depth. However, my sincere hope is that other players who appreciate tightly-integrated sci-fi tech progression and challenging automation will find as much fun playing it as I had putting it together.
-
-I fully recognize and respect that some in the gaming and modding community have reservations or concerns regarding the use of AI tools in creative projects. AI was utilized here not to replace human creativity or cut corners, but rather as an interactive engineering co-pilot—accelerating the repetitive mechanics of configuration scripting, tag synchronization, and recipe wiring so that a cohesive, polished modpack could be realized.
+### Performance, Visuals & Quality of Life
+- **Sodium & Iris**: High-performance rendering with shader pack support.
+- **Lithium, FerriteCore, ImmediatelyFast, Entity Culling, More Culling, and Dynamic FPS**: Memory and frame-rate optimizations.
+- **JEI, Jade, Xaero's Minimap, Xaero's World Map, and AppleSkin**: Recipe lookup, machine/chemical HUD tooltips, mapping, and saturation display.
 
 ---
 
-## 🙏 Credits & Acknowledgements
+## Project Layout, Tools & Documentation
 
-MekPack would not exist without the incredible dedication, ingenuity, and passion of the Minecraft modding community. We extend our deepest gratitude to every developer, artist, and contributor whose work powers this experience:
+```text
+├── config/              # Curated mod and Theseus Quests configurations
+├── resourcepacks/       # Optional resource packs
+├── custom_content/      # Custom recipes, advancements, and reward loot tables
+├── custom_mods/         # Upstream Mekanism 26.3 builds & MekPackContent jar
+├── tools/               # Python scripts for resolving, building, and exporting
+├── docs/                # Design, recipe, and distribution documentation
+├── instance.cfg         # Prism Launcher instance config
+├── mmc-pack.json        # Component versions (Minecraft 26.3, NeoForge 26.3.0.110)
+├── resolved_mods.json   # Pinned Modrinth manifest with SHA-512 hashes
+└── minecraft/           # [Gitignored] Local test instance directory
+```
+
+Key scripts in `tools/`:
+- `python3 tools/setup_instance.py`: Sets up `minecraft/` for local testing.
+- `python3 tools/mod_resolver.py` & `python3 tools/download_mods.py`: Resolves compatible Modrinth `26.3` NeoForge mods and downloads them with SHA-512 verification.
+- `python3 tools/generate_theseus_quests.py` & `python3 tools/generate_advancements.py`: Regenerates the 33-milestone quest book and advancement tree.
+- `python3 tools/update_mekanism.py`: Checks Modrinth for an official 26.3 Mekanism release or rebuilds from the upstream `26.3` branch.
+- `python3 tools/export_pack.py`: Exports `.mrpack` and Prism `.zip` release bundles into `dist/`.
+
+Further documentation:
+- [Changelog](CHANGELOG.md)
+- [AI & Contributor Guidelines](AGENTS.md)
+- [Modpack Philosophy](docs/MODPACK_PHILOSOPHY.md)
+- [Companion Mod Integration Matrix](docs/INTEGRATION_MATRIX.md)
+- [Recipe Customization Guide](docs/RECIPE_CUSTOMIZATION_GUIDE.md)
+- [Custom Achievement Flow Blueprint](docs/ACHIEVEMENT_FLOW_BLUEPRINT.md)
+- [Public Distribution & Publishing Guide](docs/DISTRIBUTION_GUIDE.md)
+
+---
+
+## Credits & Acknowledgements
+
+MekPack relies on the work of the Minecraft modding community. Thank you to every developer and contributor whose mods make this pack possible:
 
 ### Industrial Core
 - **Mekanism, Generators, Tools & Additions**: Created by [Aidancbrady](https://aidancbrady.com/mekanism/), [Thommy101](https://github.com/Thommy101), [Thiakil](https://github.com/thiakil), [pupnewfster](https://github.com/pupnewfster), [dizzyd](https://github.com/dizzyd), with contributions from unpairedbracket, CyanideX, Ridanisaurus, and the Mekanism community.
@@ -179,8 +129,9 @@ MekPack would not exist without the incredible dedication, ingenuity, and passio
 - **More Culling**: Created by [FX - PR0CESS](https://modrinth.com/mod/moreculling) and 1Foxy2.
 - **Dynamic FPS**: Created by [juliand665 & LostLuma](https://dapprgames.com/mods).
 
-### HUD, Diagnostics & Utilities
-- **Just Enough Items (JEI)**: Created by [mezz](https://www.curseforge.com/minecraft/mc-mods/jei).
+### Quests, HUD, Diagnostics & Utilities
+- **Theseus Quests**: Created by [johardt](https://modrinth.com/mod/theseus-quests) (forked from Terrarium's Heracles / Odyssey Quests).
+- **Just Enough Items (JEI)** & **MezzConfig**: Created by [mezz](https://www.curseforge.com/minecraft/mc-mods/jei).
 - **Jade**: Created by [Snownee](https://www.curseforge.com/minecraft/mc-mods/jade) (with credits to TehNut, ProfMobius, and kalkafox).
 - **Better Advancements**: Created by [way2muchnoise](https://www.curseforge.com/minecraft/mc-mods/better-advancements).
 - **Advancement Plaques**: Created by [Grend_G](https://modrinth.com/mod/advancement-plaques).
@@ -191,8 +142,10 @@ MekPack would not exist without the incredible dedication, ingenuity, and passio
 - **Curios API**: Created by [TheIllusiveC4 (C4)](https://github.com/TheIllusiveC4/Curios).
 - **Architectury API & Cloth Config**: Created by [shedaniel](https://github.com/shedaniel).
 - **Yet Another Config Lib (YACL)**: Created by [isXander](https://github.com/isXander).
+- **Resourceful Lib**: Created by [Team Resourceful](https://modrinth.com/mod/resourceful-lib).
 - **SuperMartijn642's Core & Config Libs**: Created by [SuperMartijn642](https://github.com/SuperMartijn642).
 - **Forge Config API Port**: Created by [Fuzs](https://modrinth.com/mod/forge-config-api-port).
 - **GuideME**: Created by [shartte](https://github.com/AppliedEnergistics/GuideME/).
 - **EdivadLib**: Created by [Edivad99](https://github.com/Edivad99).
 - **Polylib**: Created by [CreeperHost](https://minetogether.io).
+- **Iceberg** & **Lithostitched**: Created by their respective Modrinth authors.

@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:basic_control_circuit"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Computational Logic",
+    "subtitle": "Tier 1 \u2014 Basic Circuits",
+    "description": [
+      "Infuse Osmium with Redstone in the Metallurgic Infuser to fabricate Basic Control Circuits."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          300,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "circuit": {
+      "type": "theseus:item",
+      "title": "Craft Basic Control Circuit",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:basic_control_circuit"
+      },
+      "item": "mekanism:basic_control_circuit",
+      "amount": 2,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "2x Basic Control Circuit",
+      "item": {
+        "id": "mekanism:basic_control_circuit",
+        "count": 2
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "2x Energy Tablet",
+      "item": {
+        "id": "mekanism:energy_tablet",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "150 XP",
+      "xptype": "points",
+      "amount": 150
+    }
+  },
+  "dependencies": [
+    "steel_ingot"
+  ]
+}

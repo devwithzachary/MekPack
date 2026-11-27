@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:mekasuit_bodyarmor"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Cybernetic Sovereign",
+    "subtitle": "Tier 5 \u2014 MekaSuit Power Armor",
+    "description": [
+      "Assemble the MekaSuit modular power armor system."
+    ],
+    "groups": {
+      "Tier 5: Supercritical Frontier": {
+        "position": [
+          450,
+          -110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "suit": {
+      "type": "theseus:item",
+      "title": "Craft MekaSuit Bodyarmor",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:mekasuit_bodyarmor"
+      },
+      "item": "mekanism:mekasuit_bodyarmor",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Module",
+      "item": {
+        "id": "mekanism:module",
+        "count": 1,
+        "components": {
+          "mekanism:module_type": "mekanism:gravitational_modulating_unit",
+          "minecraft:rarity": "epic"
+        }
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "5000 XP",
+      "xptype": "points",
+      "amount": 5000
+    }
+  },
+  "dependencies": [
+    "antimatter_pellet"
+  ]
+}

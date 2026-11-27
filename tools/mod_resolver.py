@@ -30,6 +30,7 @@ CANDIDATES = [
     "appleskin",
     "better-advancements",
     "advancement-plaques",
+    "theseus-quests",
     
     # Optimization & Engine
     "sodium",
@@ -54,6 +55,8 @@ CANDIDATES = [
     "forge-config-api-port",
     "iceberg",
     "lithostitched",
+    "resourceful-lib",
+    "mezzconfig",
 
     # Sci-Fi Worldgen, Dimensions & Structures
     "the-lost-cities",
@@ -65,7 +68,7 @@ CANDIDATES = [
     "structory-towers"
 ]
 
-def check_project(slug):
+def check_project(slug, exact_version=None, release_only=False):
     url = f"https://api.modrinth.com/v2/project/{slug}/version"
     req = urllib.request.Request(url, headers={"User-Agent": "MekPack-Resolver/1.0"})
     try:
@@ -76,6 +79,10 @@ def check_project(slug):
 
     # Find matching version - first prefer TARGET_LOADER
     for v in data:
+        if exact_version and v.get("version_number") != exact_version:
+            continue
+        if release_only and v.get("version_type") != "release":
+            continue
         game_versions = v.get("game_versions", [])
         loaders = v.get("loaders", [])
         if TARGET_MC in game_versions and TARGET_LOADER in loaders:
@@ -120,7 +127,25 @@ if __name__ == "__main__":
             results[slug] = res
         else:
             print(f"[MISSING/OTHER] {slug}: {res}")
-    
+
+    # Prevent Sodium/Iris incompatibility while Iris < 1.12.1 on 26.3
+    if "iris" in results and "sodium" in results:
+        iris_ver = results["iris"].get("version_number", "")
+        if iris_ver.startswith("1.11."):
+            pinned_sodium = check_project("sodium", exact_version="mc26.3-0.9.3-beta.3-neoforge")
+            if "file" in pinned_sodium and pinned_sodium["file"]:
+                results["sodium"] = pinned_sodium
+                print(f"[PINNED] sodium -> {pinned_sodium['file']['filename']} (Iris {iris_ver} requires Sodium compatible with < 1.12.1)")
+
+    # Prevent Tectonic 3.1.0 beta from crashing alongside Terralith
+    if "tectonic" in results and "terralith" in results:
+        tec_ver = results["tectonic"].get("version_number", "")
+        if "beta" in tec_ver.lower():
+            pinned_tec = check_project("tectonic", release_only=True)
+            if "file" in pinned_tec and pinned_tec["file"]:
+                results["tectonic"] = pinned_tec
+                print(f"[PINNED] tectonic -> {pinned_tec['file']['filename']} (Tectonic {tec_ver} is incompatible with Terralith)")
+
     with open("resolved_mods.json", "w") as f:
         json.dump(results, f, indent=2)
     print(f"\nResolved {len(results)}/{len(CANDIDATES)} mods for {TARGET_LOADER} {TARGET_MC}.")

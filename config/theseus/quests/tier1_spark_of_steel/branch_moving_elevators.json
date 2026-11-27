@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "movingelevators:elevator_block"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Vertical Transit",
+    "subtitle": "Tier 1 Wing \u2014 Moving Elevators",
+    "description": [
+      "Construct a multi-floor Elevator Controller for your industrial compound."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          300,
+          110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "elev": {
+      "type": "theseus:item",
+      "title": "Craft Elevator Controller",
+      "icon": {
+        "type": "theseus:item",
+        "item": "movingelevators:elevator_block"
+      },
+      "item": "movingelevators:elevator_block",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "2x Display Block",
+      "item": {
+        "id": "movingelevators:display_block",
+        "count": 2
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "2x Button Block",
+      "item": {
+        "id": "movingelevators:button_block",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "100 XP",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "dependencies": [
+    "basic_control_circuit"
+  ]
+}

@@ -195,3 +195,10 @@
 		y = 2147483647
 		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
 		pinned = false
+
+	#The last position the Recipe Book window was in when it was closed.
+	[window.recipe_book]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647

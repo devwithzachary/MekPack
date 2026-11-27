@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:alloy_infused"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Alloy Dynamics",
+    "subtitle": "Tier 2 \u2014 Infused Alloy",
+    "description": [
+      "Infuse Iron with Redstone to synthesize Infused Alloys for Tier 2 machinery."
+    ],
+    "groups": {
+      "Tier 2: Kinetic Automation": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "alloy": {
+      "type": "theseus:item",
+      "title": "Synthesize Infused Alloy",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:alloy_infused"
+      },
+      "item": "mekanism:alloy_infused",
+      "amount": 8,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Alloy Infused",
+      "item": {
+        "id": "mekanism:alloy_infused",
+        "count": 4
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Basic Tier Installer",
+      "item": {
+        "id": "mekanism:basic_tier_installer",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "200 XP",
+      "xptype": "points",
+      "amount": 200
+    }
+  },
+  "dependencies": [
+    "enrichment_chamber"
+  ]
+}

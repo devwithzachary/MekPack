@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "wormhole:portal_stabilizer"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Stargate Gateway",
+    "subtitle": "Tier 4 Wing \u2014 Wormhole Portals",
+    "description": [
+      "Deploy an interdimensional Wormhole Portal Stabilizer powered by quantum circuits."
+    ],
+    "groups": {
+      "Tier 4: Nuclear Power & Relays": {
+        "position": [
+          450,
+          110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "worm": {
+      "type": "theseus:item",
+      "title": "Craft Portal Stabilizer",
+      "icon": {
+        "type": "theseus:item",
+        "item": "wormhole:portal_stabilizer"
+      },
+      "item": "wormhole:portal_stabilizer",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Portal Frame",
+      "item": {
+        "id": "wormhole:portal_frame",
+        "count": 4
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Advanced Target Device",
+      "item": {
+        "id": "wormhole:advanced_target_device",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "500 XP",
+      "xptype": "points",
+      "amount": 500
+    }
+  },
+  "dependencies": [
+    "ultimate_control_circuit"
+  ]
+}

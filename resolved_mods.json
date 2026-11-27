@@ -1,36 +1,30 @@
 {
   "ae2": {
     "slug": "ae2",
-    "version_number": "26.3.1-alpha",
-    "name": "AE2 26.3.1-alpha [NEOFORGE]",
+    "version_number": "26.3.2-alpha",
+    "name": "AE2 26.3.2-alpha [NEOFORGE]",
     "file": {
-      "id": "GaBFrL9O",
+      "id": "WqjaKUrV",
       "hashes": {
-        "sha512": "0b2cd09cb2fc63c39e600d2989edb6c8ac2ceac396cbb15224aadd87c555ffa8465503af165a02df73646f1e0cc2f3a6d711f669fa7ba9a5dd9fe88d0b9533cc",
-        "sha1": "41e5ce3f2dfb9e6d9a423754b3134e385f6dbcda"
+        "sha1": "76fa7a2b4fed12ac1e008e4e78b49ce5b3f73b58",
+        "sha512": "d8b46645b4fbc661db9e6cc48004c03ccdc49d31ca88e2cec960d41dee9bbf1c8c8ef9c696e86bb11abb714fd1c243dceea8e1ac597144534d9cf87c8c0500a9"
       },
-      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/PDPQ4WfW/appliedenergistics2-26.3.1-alpha.jar",
-      "filename": "appliedenergistics2-26.3.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/KuBWeko9/appliedenergistics2-26.3.2-alpha.jar",
+      "filename": "appliedenergistics2-26.3.2-alpha.jar",
       "primary": true,
-      "size": 8397266,
+      "size": 8409455,
       "file_type": null
     },
     "dependencies": [
       {
         "version_id": null,
-        "project_id": "Ck4E7v7R",
-        "file_name": null,
-        "dependency_type": "required"
-      },
-      {
-        "version_id": null,
-        "project_id": "6AQIaxuO",
+        "project_id": "nvQzSEkH",
         "file_name": null,
         "dependency_type": "optional"
       },
       {
         "version_id": null,
-        "project_id": "nfn13YXA",
+        "project_id": "6AQIaxuO",
         "file_name": null,
         "dependency_type": "optional"
       },
@@ -42,9 +36,15 @@
       },
       {
         "version_id": null,
-        "project_id": "nvQzSEkH",
+        "project_id": "nfn13YXA",
         "file_name": null,
         "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "Ck4E7v7R",
+        "file_name": null,
+        "dependency_type": "required"
       },
       {
         "version_id": null,
@@ -62,18 +62,18 @@
   },
   "cc-tweaked": {
     "slug": "cc-tweaked",
-    "version_number": "1.120.3",
-    "name": "1.120.3",
+    "version_number": "1.122.0",
+    "name": "1.122.0",
     "file": {
-      "id": "YbWbpOGG",
+      "id": "JAwrN52n",
       "hashes": {
-        "sha1": "bcbe50fe24017b89247115f3b49c9d8f768289f3",
-        "sha512": "7c8d5ba720ce04b650b08f7c02d4dffbada0e7149657cd032b343d84cfaa2680cb5c5f7d9dacadd23e5bfa7776a652a9fba325cddad3f8db90a275520413ff1a"
+        "sha1": "ce8a70da54d0eb58e83e6cf3c753c025c79f351a",
+        "sha512": "0ef8fabb8315d38bf04a61b35b5f1395c0fb75e0b0d84e46cf14786e693b5382c6e6733f517dee3ca4720b1378b1b79b318a54b95f087d42e550439e74e3cc5c"
       },
-      "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/f9jfjeJH/cc-tweaked-26.3-forge-1.120.3.jar",
-      "filename": "cc-tweaked-26.3-forge-1.120.3.jar",
+      "url": "https://cdn.modrinth.com/data/gu7yAYhd/versions/dNPuF2s9/cc-tweaked-26.3-forge-1.122.0.jar",
+      "filename": "cc-tweaked-26.3-forge-1.122.0.jar",
       "primary": true,
-      "size": 2611053,
+      "size": 2700791,
       "file_type": null
     },
     "dependencies": []
@@ -146,8 +146,8 @@
     "file": {
       "id": "ewsiR8P4",
       "hashes": {
-        "sha1": "2dfda2f5f688f015c05b850cc8c896448a73c0ef",
-        "sha512": "935b650d224170041d89e4ee2951cb7859199e9e90d1e86b02df772bcb7aee8ca60e50804c8796421c82444cde04b6e77f70321aa03953cb7bc355a931f30645"
+        "sha512": "935b650d224170041d89e4ee2951cb7859199e9e90d1e86b02df772bcb7aee8ca60e50804c8796421c82444cde04b6e77f70321aa03953cb7bc355a931f30645",
+        "sha1": "2dfda2f5f688f015c05b850cc8c896448a73c0ef"
       },
       "url": "https://cdn.modrinth.com/data/9KZOe6HD/versions/E8ZsYHRX/movingelevators-1.4.12-neoforge-mc26.3.jar",
       "filename": "movingelevators-1.4.12-neoforge-mc26.3.jar",
@@ -172,18 +172,18 @@
   },
   "dimstorage": {
     "slug": "dimstorage",
-    "version_number": "10.1.1",
-    "name": "DimStorage-26.3-10.1.1",
+    "version_number": "10.1.2",
+    "name": "DimStorage-26.3-10.1.2",
     "file": {
-      "id": "HGf43B0l",
+      "id": "P9nmeyZw",
       "hashes": {
-        "sha1": "82d1259e0d04bfb73cc50a0c4231cff32585891a",
-        "sha512": "cf51e21c531cd019c6312da21fd87f894791353e531ce06081d7b6e4fc4986da957c0081b0b4aa6aeb6ad172fe41ccdd15cdcf64058627c3168bf50a534a5ce3"
+        "sha512": "5e2f7945315fc85b05a4a3a1445c300c26c391b0ab52a90e8383141b804cd3282c406613b93e536a020e105ca1a18e5da20ed77f6888727c0a4b8f95741a1934",
+        "sha1": "bf3fc76d4fc34ebd9b8dfca0d259cde0d8315512"
       },
-      "url": "https://cdn.modrinth.com/data/8lnmIJH7/versions/cOs6zvVn/DimStorage-26.3-10.1.1.jar",
-      "filename": "DimStorage-26.3-10.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8lnmIJH7/versions/h8jimV9Y/DimStorage-26.3-10.1.2.jar",
+      "filename": "DimStorage-26.3-10.1.2.jar",
       "primary": true,
-      "size": 184209,
+      "size": 190287,
       "file_type": null
     },
     "dependencies": [
@@ -197,18 +197,18 @@
   },
   "entangled": {
     "slug": "entangled",
-    "version_number": "1.3.21-neoforge-mc26.3",
-    "name": "Entangled 1.3.21",
+    "version_number": "1.3.21a-neoforge-mc26.3",
+    "name": "Entangled 1.3.21a",
     "file": {
-      "id": "EDmmOYPv",
+      "id": "7sYTZe9U",
       "hashes": {
-        "sha512": "ec33e227c66a83c9c716d4b112bf4d7612a4f30ef08e8f10b3e2154a6cd7ab05153f69a5ad6854ac263203aeb0c7a7dfc5a43babc6ef88c1b8bf6139851d8384",
-        "sha1": "6c8f7c3b7e028a9afc8d8a045c1230712a410b18"
+        "sha512": "1b0bd59c9e33a094c8e58ab623ff0fb639e9cf488a5d1308c61898123d76bb7c45e527ffd89b4aed9fc7a2c4b0277d420b86b63d0a15f9344189abb308128c2c",
+        "sha1": "adeb28b6fe00ecf3b9ec1daecdc171c131b860d2"
       },
-      "url": "https://cdn.modrinth.com/data/rylMOguI/versions/CV1KKB1O/entangled-1.3.21-neoforge-mc26.3.jar",
-      "filename": "entangled-1.3.21-neoforge-mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/rylMOguI/versions/Q90bzliX/entangled-1.3.21a-neoforge-mc26.3.jar",
+      "filename": "entangled-1.3.21a-neoforge-mc26.3.jar",
       "primary": true,
-      "size": 162237,
+      "size": 162074,
       "file_type": null
     },
     "dependencies": [
@@ -239,8 +239,8 @@
     "file": {
       "id": "CoiYYLhx",
       "hashes": {
-        "sha512": "9969d298b7a89ec98ec0b752f2138147fbb8c8bddaf7613f6e8a545fcf63b4a980e78083f004bc4bd3e29bd1f95e054e248d9fd6ac3b954665c3cc84a14f87d6",
-        "sha1": "af925d1c96e903b1f9a29c61ff84247cec625957"
+        "sha1": "af925d1c96e903b1f9a29c61ff84247cec625957",
+        "sha512": "9969d298b7a89ec98ec0b752f2138147fbb8c8bddaf7613f6e8a545fcf63b4a980e78083f004bc4bd3e29bd1f95e054e248d9fd6ac3b954665c3cc84a14f87d6"
       },
       "url": "https://cdn.modrinth.com/data/6nHZTTjQ/versions/I6UXj8L6/wormhole-1.1.17-neoforge-mc26.3.jar",
       "filename": "wormhole-1.1.17-neoforge-mc26.3.jar",
@@ -270,8 +270,8 @@
     "file": {
       "id": "PUtdJ6Ep",
       "hashes": {
-        "sha1": "aa18ecc5d033ed45c7b995fee03199b441e249d6",
-        "sha512": "459e115506c5225597408ab1a0e37c3d244ec61fa609082b6130a64d5247dbe840291b10fecd2796725aae478bb34216c5629ca136fedaff05da12fd793f895e"
+        "sha512": "459e115506c5225597408ab1a0e37c3d244ec61fa609082b6130a64d5247dbe840291b10fecd2796725aae478bb34216c5629ca136fedaff05da12fd793f895e",
+        "sha1": "aa18ecc5d033ed45c7b995fee03199b441e249d6"
       },
       "url": "https://cdn.modrinth.com/data/jzaTHh0C/versions/7ux8uvWP/shrink-neoforge-26.3-2.1.3.jar",
       "filename": "shrink-neoforge-26.3-2.1.3.jar",
@@ -321,21 +321,27 @@
   },
   "trash-cans": {
     "slug": "trash-cans",
-    "version_number": "1.1.2-neoforge-mc26.3",
-    "name": "Trash Cans 1.1.2",
+    "version_number": "1.1.2a-neoforge-mc26.3",
+    "name": "Trash Cans 1.1.2a",
     "file": {
-      "id": "PJ8FDE7q",
+      "id": "xvZJU527",
       "hashes": {
-        "sha1": "cf93a5c5ef0328d08d578cb5183150b93e2cd32d",
-        "sha512": "d523ab847a9b877883e1ab4c800357187ee929155b872f29004d1aa11882f0e9703150171f2ead0f13f771db9ff0cff7a54c758043a28b4257a111fae83c9674"
+        "sha512": "0de03e2dccc2cbefd4ead7aa9a397c7c4fcf352fbf67ea6f83efe76220816c13898b8f61318753ddbd54febab6e70fd9a5ef35e4dd79d1742b5582ccc6f7a04e",
+        "sha1": "d8fe05009407d6eacef49608f8f9539568162141"
       },
-      "url": "https://cdn.modrinth.com/data/4QrnfueM/versions/xGgDb3en/trashcans-1.1.2-neoforge-mc26.3.jar",
-      "filename": "trashcans-1.1.2-neoforge-mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/4QrnfueM/versions/yiqBCJrl/trashcans-1.1.2a-neoforge-mc26.3.jar",
+      "filename": "trashcans-1.1.2a-neoforge-mc26.3.jar",
       "primary": true,
-      "size": 214074,
+      "size": 214011,
       "file_type": null
     },
     "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "Ce6I4WUE",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
       {
         "version_id": null,
         "project_id": "rOUBggPv",
@@ -347,12 +353,6 @@
         "project_id": "LN9BxssP",
         "file_name": null,
         "dependency_type": "required"
-      },
-      {
-        "version_id": null,
-        "project_id": "Ce6I4WUE",
-        "file_name": null,
-        "dependency_type": "optional"
       }
     ]
   },
@@ -363,8 +363,8 @@
     "file": {
       "id": "CByGVOyU",
       "hashes": {
-        "sha512": "795165fa089fbf3354dbb67de50a895a395f38223350861f7f942520ba33f93ecc88557762082968aadc3710a6a42361fb7659b144664aa7cc3a5bbfe895d5b3",
-        "sha1": "7978a0b228203316a81670561924d224ba8c4c54"
+        "sha1": "7978a0b228203316a81670561924d224ba8c4c54",
+        "sha512": "795165fa089fbf3354dbb67de50a895a395f38223350861f7f942520ba33f93ecc88557762082968aadc3710a6a42361fb7659b144664aa7cc3a5bbfe895d5b3"
       },
       "url": "https://cdn.modrinth.com/data/y9vDr4Th/versions/yQgjoTW9/itemcollectors-1.1.12-neoforge-mc26.3.jar",
       "filename": "itemcollectors-1.1.12-neoforge-mc26.3.jar",
@@ -389,18 +389,18 @@
   },
   "jei": {
     "slug": "jei",
-    "version_number": "31.17.0.94",
-    "name": "31.17.0.94 for NeoForge 26.3",
+    "version_number": "31.23.0.130",
+    "name": "31.23.0.130 for NeoForge 26.3",
     "file": {
-      "id": "i4fzhzSX",
+      "id": "Obyh0mmu",
       "hashes": {
-        "sha512": "fac35351c8400f2b6961c7f0e4e0d4648314c285eb17bd2e27e92b900ba2f6abfc630695c9061c8e72f2aeae23577e0f9236046c528e601a90b55d39794fe8a2",
-        "sha1": "44f8047198626673cf7bc367543898d038a87adb"
+        "sha512": "ad37684e9628581e50e0420099ec66536dc483d8e0ba441655d6bfb888d55b9b32fd9aae28e25bb7f6ffd845ef057c3f4b4527dd4566cde923499e29673c35ca",
+        "sha1": "46cecf3322307bfb07106f3123cd00da000fb695"
       },
-      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/E9U1GVrH/jei-26.3-neoforge-31.17.0.94.jar",
-      "filename": "jei-26.3-neoforge-31.17.0.94.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/YzkPlZFG/jei-26.3-neoforge-31.23.0.130.jar",
+      "filename": "jei-26.3-neoforge-31.23.0.130.jar",
       "primary": true,
-      "size": 4744960,
+      "size": 7117055,
       "file_type": null
     },
     "dependencies": [
@@ -475,8 +475,8 @@
     "file": {
       "id": "FXpk7Cxr",
       "hashes": {
-        "sha512": "00c77fc7f9bbf198be8489c8e3f2acd2ee81bf5af6987df99982050a4689376aa98fdb228f60dd580b95522e40f7163db7289a87459cab07f4b63b6b17a17030",
-        "sha1": "31c8825cab057953f27c8097922b6652fc2b2f23"
+        "sha1": "31c8825cab057953f27c8097922b6652fc2b2f23",
+        "sha512": "00c77fc7f9bbf198be8489c8e3f2acd2ee81bf5af6987df99982050a4689376aa98fdb228f60dd580b95522e40f7163db7289a87459cab07f4b63b6b17a17030"
       },
       "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/KeQTErHb/xaeroworldmap-neoforge-26.3-1.47.2.jar",
       "filename": "xaeroworldmap-neoforge-26.3-1.47.2.jar",
@@ -500,8 +500,8 @@
     "file": {
       "id": "pKa3O8ky",
       "hashes": {
-        "sha512": "a454c90af544a63fb904709987513122706b8b26f97bcb2d36458f99697754ae4b32d2e275c77dae9d448cfa236497e0de36677cc0c4e002f78feddbe04449ef",
-        "sha1": "1eaf890236c4d0815a3bd0933fd55174ff6249cd"
+        "sha1": "1eaf890236c4d0815a3bd0933fd55174ff6249cd",
+        "sha512": "a454c90af544a63fb904709987513122706b8b26f97bcb2d36458f99697754ae4b32d2e275c77dae9d448cfa236497e0de36677cc0c4e002f78feddbe04449ef"
       },
       "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/6vok7cLb/appleskin-neoforge-mc26.3-3.0.10.jar",
       "filename": "appleskin-neoforge-mc26.3-3.0.10.jar",
@@ -560,20 +560,69 @@
       }
     ]
   },
+  "theseus-quests": {
+    "slug": "theseus-quests",
+    "version_number": "26.3-1.1.0-neoforge",
+    "name": "Theseus Quests 1.1.0 for 26.3",
+    "file": {
+      "id": "w7Pi6ReG",
+      "hashes": {
+        "sha1": "b51ceeced3c3d16dafdd9a0ffd2c2ea0271e83b3",
+        "sha512": "ac98e75df0e6e3ef0e2bbfb1e25d3c2180c8a6c8827a4ef6294863d9fbb73fc8a28637f06b5d1e407fe983620a8f929983e761fd11379e3ad405d8750b99b13f"
+      },
+      "url": "https://cdn.modrinth.com/data/fx73ivjN/versions/o13N9zVs/theseus-neoforge-26.3-1.1.0.jar",
+      "filename": "theseus-neoforge-26.3-1.1.0.jar",
+      "primary": true,
+      "size": 1608517,
+      "file_type": "unknown"
+    },
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "u6dRKJwZ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "M1953qlQ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "gF3BGWvG",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "nfn13YXA",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": "4BbCbnE6",
+        "project_id": "G1hIVOrD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
   "sodium": {
     "slug": "sodium",
-    "version_number": "mc26.3-0.9.3-beta.1-neoforge",
-    "name": "Sodium 0.9.3-beta.1 for NeoForge 26.3",
+    "version_number": "mc26.3-0.9.3-beta.3-neoforge",
+    "name": "Sodium 0.9.3-beta.3 for NeoForge 26.3",
     "file": {
-      "id": "kfVOVvfl",
+      "id": "WfGoBxpp",
       "hashes": {
-        "sha1": "c9412897122afb33007f6c0d6ee1b2248a9ebcf7",
-        "sha512": "92cdb344cb8049993685e3d81498411d4e6965a8f054c912a297bfe550937ed4792b7c1cb4efea5b5ac9c0e6c32aea777389207e481f008ce6f176b5ae6aab93"
+        "sha1": "830d9bb77abbb93aab9bb9c3ceb6db6304284ff6",
+        "sha512": "ff31a4fd45e25bb05e098fe56db87ebba3efd3731f1f6934d3f9a1b19e3bab9baeab9486a9eee7e85a5be0b2b088b1b81deb6233c4b2242b12cf3079929e475c"
       },
-      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/SS023RVV/sodium-neoforge-0.9.3-beta.1%2Bmc26.3.jar",
-      "filename": "sodium-neoforge-0.9.3-beta.1+mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Sx1xfT5Y/sodium-neoforge-0.9.3-beta.3%2Bmc26.3.jar",
+      "filename": "sodium-neoforge-0.9.3-beta.3+mc26.3.jar",
       "primary": true,
-      "size": 1209577,
+      "size": 1210060,
       "file_type": null
     },
     "dependencies": []
@@ -585,8 +634,8 @@
     "file": {
       "id": "A0VaGfz4",
       "hashes": {
-        "sha512": "302659f09e50d02a6cd96075be93aade2a2f9d709afe21d56465228fb7d7f4717566e3702a7872479df2fff9b7a5ff5b1b6047cc95e09ee6120fad5ea5857eec",
-        "sha1": "57cbbd1f58b6226c633520541c1a3ae57c019373"
+        "sha1": "57cbbd1f58b6226c633520541c1a3ae57c019373",
+        "sha512": "302659f09e50d02a6cd96075be93aade2a2f9d709afe21d56465228fb7d7f4717566e3702a7872479df2fff9b7a5ff5b1b6047cc95e09ee6120fad5ea5857eec"
       },
       "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/Ag5S66CF/iris-neoforge-1.11.7%2Bmc26.3.jar",
       "filename": "iris-neoforge-1.11.7+mc26.3.jar",
@@ -610,8 +659,8 @@
     "file": {
       "id": "1nDZqrny",
       "hashes": {
-        "sha1": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143",
-        "sha512": "e96a99ac5539f56a1f4cd109d62b668ebd5283f0068491ede956f52e67023beba7abe2e40021499352ffc41ead950bebcabce7792352249a1b45c5dccb3cf99c"
+        "sha512": "e96a99ac5539f56a1f4cd109d62b668ebd5283f0068491ede956f52e67023beba7abe2e40021499352ffc41ead950bebcabce7792352249a1b45c5dccb3cf99c",
+        "sha1": "b8bfb14ba6ce7068aae08c3a132ca40bda6bd143"
       },
       "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/LtVvw4uS/ferritecore-9.0.0-neoforge.jar",
       "filename": "ferritecore-9.0.0-neoforge.jar",
@@ -623,18 +672,18 @@
   },
   "lithium": {
     "slug": "lithium",
-    "version_number": "mc26.3-0.26.2-neoforge",
-    "name": "Lithium 0.26.2 for Neoforge",
+    "version_number": "mc26.3-0.26.4-neoforge",
+    "name": "Lithium 0.26.4 for Neoforge",
     "file": {
-      "id": "8d0mmAtF",
+      "id": "LsY9fv4j",
       "hashes": {
-        "sha1": "1d11e085f74dda6fb797dfc4296cf4086fddfdcb",
-        "sha512": "af579327afba03fac855b0a55c1cd25236483d2d2a22f7686eb7b046a1a814511caa1c767dc5967f69ce92dcd5980e85340047b5b732ab7ba190f093788c20db"
+        "sha512": "e79dc1c2ab30b968aaad323a92c93151759c5dcb4c78da57c1abf967245980a5885e8d3b8500e8403ad066a560892571044525a0d701b4b71f8586b3df9a9d6f",
+        "sha1": "d12dbd230b0297e2473b354604e6db25344b759a"
       },
-      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/1rb9wI5K/lithium-neoforge-0.26.2%2Bmc26.3.jar",
-      "filename": "lithium-neoforge-0.26.2+mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/KDYrDhS5/lithium-neoforge-0.26.4%2Bmc26.3.jar",
+      "filename": "lithium-neoforge-0.26.4+mc26.3.jar",
       "primary": true,
-      "size": 903255,
+      "size": 910143,
       "file_type": null
     },
     "dependencies": []
@@ -659,36 +708,36 @@
   },
   "entityculling": {
     "slug": "entityculling",
-    "version_number": "1.11.3",
-    "name": "1.11.3-26.3 - NeoForge",
+    "version_number": "1.12.2",
+    "name": "1.12.2-26.3 - NeoForge",
     "file": {
-      "id": "9xerSma6",
+      "id": "D2ddqpyA",
       "hashes": {
-        "sha512": "129b94d59a6ff5513e3dca34a59aadb9eefedde8508bdbfb6997146647971fb5a49b5e111353753955888ddefc886a7893637951088c759ed3b0390b61cfe7e0",
-        "sha1": "75df6fa16449e91f9a20cd5f6ce5db9b3b972938"
+        "sha1": "1e7aae8d44bb68cf32b035d76001971e7e8c955e",
+        "sha512": "74648d6513291a848fcdc87c57af60aac91e3a1665a3dbef922bc331e156d8e955b618ff886b4405857ab54605e87a5b71fb40b5dbba1a567539d4db276506fe"
       },
-      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/YWSFNKio/entityculling-neoforge-1.11.3-mc26.3.jar",
-      "filename": "entityculling-neoforge-1.11.3-mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/uyl3yvIu/entityculling-neoforge-1.12.2-mc26.3.jar",
+      "filename": "entityculling-neoforge-1.12.2-mc26.3.jar",
       "primary": true,
-      "size": 1498685,
+      "size": 1512642,
       "file_type": null
     },
     "dependencies": []
   },
   "moreculling": {
     "slug": "moreculling",
-    "version_number": "1.9.0",
-    "name": "1.9.0",
+    "version_number": "1.9.2",
+    "name": "v1.9.2",
     "file": {
-      "id": "xHTX3LoD",
+      "id": "TbFKWVUY",
       "hashes": {
-        "sha512": "301c90f3332ccd74fb6fde8b22f43e15221a3f99213d0b0e711692bcf34d0ceefc4744388c5f6c8813960c69b5fcb6b16e9ae969f15a5393b99b0bb15fedf409",
-        "sha1": "f99a4e0c208138945b63d2c09455d0a925287e2a"
+        "sha512": "15524f7abbbf5e5a7bb1dcb56ed51b4e45991cbbe33186fa63d76275ecefd1e62ad4d19f8fd256fd1e6b9425bf264ea74a1992e45640e4caa6569fa6e3fd1f00",
+        "sha1": "b96d88e30d593a0b871ed633f72dba427ed5814b"
       },
-      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/1of2eSie/moreculling-neoforge-26.3-1.9.0.jar",
-      "filename": "moreculling-neoforge-26.3-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/CrZ3fy5A/moreculling-neoforge-26.3-1.9.2.jar",
+      "filename": "moreculling-neoforge-26.3-1.9.2.jar",
       "primary": true,
-      "size": 276980,
+      "size": 279768,
       "file_type": null
     },
     "dependencies": [
@@ -727,54 +776,54 @@
   },
   "curios": {
     "slug": "curios",
-    "version_number": "17.0.0-beta.3+26.3",
-    "name": "curios-neoforge-17.0.0-beta.3+26.3",
+    "version_number": "17.0.2+26.3",
+    "name": "curios-neoforge-17.0.2+26.3",
     "file": {
-      "id": "SUL1E7On",
+      "id": "JA3Q6qBS",
       "hashes": {
-        "sha512": "ebacde6e36685849fefcaaace4ae3c2f725dd1540adca128a83b5c611998d87158750fdc224fd9faf4af8f249bb1005466e6e951d6516a99f4e0d6102a382ea1",
-        "sha1": "8abf8160149f14d4d526c76ba6ed50955ba72716"
+        "sha512": "c643b99e9e1600d0de5a04bd35fb1def89b04254ddb3564d78ffbea13a29cb1932e6c299880afc20af97f38601bf96806165f2c6066ee70cbe8c3d36528ae1d1",
+        "sha1": "f7c3d7e1482349b5e0bb45d54f2d32f882472c67"
       },
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/W912LxOl/curios-neoforge-17.0.0-beta.3%2B26.3.jar",
-      "filename": "curios-neoforge-17.0.0-beta.3+26.3.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/bSnCUKKF/curios-neoforge-17.0.2%2B26.3.jar",
+      "filename": "curios-neoforge-17.0.2+26.3.jar",
       "primary": true,
-      "size": 431183,
+      "size": 431794,
       "file_type": null
     },
     "dependencies": []
   },
   "architectury-api": {
     "slug": "architectury-api",
-    "version_number": "22.0.5+neoforge",
-    "name": "[NeoForge 26.3] v22.0.5",
+    "version_number": "22.1.7+neoforge",
+    "name": "[NeoForge 26.3] v22.1.7",
     "file": {
-      "id": "DsoaLk2l",
+      "id": "CO8F3uD7",
       "hashes": {
-        "sha512": "04e6fb056ada0f0148c002527cdac09a651f275c5fa6b6dbcbcd7d4fd62a4eb6f583d7711030e1c82b00339ba808d8070a588a5432f334903d8b430a0da47ae5",
-        "sha1": "3d97172dfd753f70a1ece295af19bc1a8bcd32f6"
+        "sha1": "fced3053ad09384b8446c6e03f9a3a664acd8f1a",
+        "sha512": "9bd2a0ff45cead07e2c39ea307c0132c6b19547cba5022ea3f5fc44af9ebcc63a2264d8ba10d633a2a8e88b22e241e50242695035a60f887e39e8230e30fe97b"
       },
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/dZ7iNvS4/architectury-neoforge-22.0.5.jar",
-      "filename": "architectury-neoforge-22.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/qsquQ3dx/architectury-neoforge-22.1.7.jar",
+      "filename": "architectury-neoforge-22.1.7.jar",
       "primary": true,
-      "size": 622642,
+      "size": 653117,
       "file_type": null
     },
     "dependencies": []
   },
   "cloth-config": {
     "slug": "cloth-config",
-    "version_number": "26.3.159+neoforge",
-    "name": "[NeoForge 26.3] v26.3.159",
+    "version_number": "26.3.161+neoforge",
+    "name": "[NeoForge 26.3] v26.3.161",
     "file": {
-      "id": "69hsDkaI",
+      "id": "qpTmRKz9",
       "hashes": {
-        "sha512": "941dd8aab50d658cfa6da071dacd05802c7097643ad569935d0073b39231a2137f2ade2403b791f70cf5ebf1649d7b6337862568a8b340c88e5d364569f94431",
-        "sha1": "d57fa1419228ee371b0c29abf943288d384e2d08"
+        "sha1": "ee5ebff4e0894793fb82f21aa3a2ea332064bef4",
+        "sha512": "4dc4df89d6b31b329bfab58d48a388e4c550ecfd27fe0868c70f6b48d5a1defdfd12b4892ffc2ca13c4e18e296fa5fd807d704095a399f68dd0b861e3f26c0ea"
       },
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/GchRXPnb/cloth-config-neoforge-26.3.159.jar",
-      "filename": "cloth-config-neoforge-26.3.159.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/KWfYVFYi/cloth-config-neoforge-26.3.161.jar",
+      "filename": "cloth-config-neoforge-26.3.161.jar",
       "primary": true,
-      "size": 1135657,
+      "size": 1135678,
       "file_type": null
     },
     "dependencies": []
@@ -804,8 +853,8 @@
     "file": {
       "id": "kRiXDvBf",
       "hashes": {
-        "sha512": "82bc2779d435092d29aed256c7ba537a7fbbc2863ab4d2772ac46460b99da4d143dbf75b528c0c5885f3008c816e5743352f4ecb08b897eb860e70a7986f38a1",
-        "sha1": "9ffd795d4bef4bd40f861c54a7bf9ba642e15834"
+        "sha1": "9ffd795d4bef4bd40f861c54a7bf9ba642e15834",
+        "sha512": "82bc2779d435092d29aed256c7ba537a7fbbc2863ab4d2772ac46460b99da4d143dbf75b528c0c5885f3008c816e5743352f4ecb08b897eb860e70a7986f38a1"
       },
       "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/FWhB6iGJ/supermartijn642configlib-1.1.8-neoforge-mc26.3.jar",
       "filename": "supermartijn642configlib-1.1.8-neoforge-mc26.3.jar",
@@ -817,18 +866,18 @@
   },
   "supermartijn642s-core-lib": {
     "slug": "supermartijn642s-core-lib",
-    "version_number": "1.1.25-neoforge-mc26.3",
-    "name": "SuperMartijn642's Core Lib 1.1.25",
+    "version_number": "1.1.26d-neoforge-mc26.3",
+    "name": "SuperMartijn642's Core Lib 1.1.26d",
     "file": {
-      "id": "i1J1odlG",
+      "id": "oeTHfFVY",
       "hashes": {
-        "sha512": "8303b5b03af418d7352c1bdcd1876141a1d8d9c2f2f8995fcea17b0b175251ae2cc3eb663dcb8df53c57db5c2d57b3528080d07f3aceecaea525e2e7207b6db4",
-        "sha1": "0560017df004d9ddc7a3e6bd54bdfa420798785a"
+        "sha512": "ffa266babb9df5aaf4843d88b4a254aaf9abc333440dd18984b6f9d19299f2e6515c4c68e8096401bbf3484245fae0327f729befe74ae011f77092894c702e7d",
+        "sha1": "da4dff02680c67405e8b5da7b730bd9116cd5fe6"
       },
-      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/dM4GPUVB/supermartijn642corelib-1.1.25-neoforge-mc26.3.jar",
-      "filename": "supermartijn642corelib-1.1.25-neoforge-mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/vAR7QKK7/supermartijn642corelib-1.1.26d-neoforge-mc26.3.jar",
+      "filename": "supermartijn642corelib-1.1.26d-neoforge-mc26.3.jar",
       "primary": true,
-      "size": 596221,
+      "size": 622637,
       "file_type": null
     },
     "dependencies": []
@@ -858,8 +907,8 @@
     "file": {
       "id": "EtSfjqyb",
       "hashes": {
-        "sha512": "bd816bf44780f7e4cf54baa02df89d93306d7e2b759e350b416a44e487e1d4229cb082f86703a14fd46e7e2eaaa48b643fa621ad37a26960b667e686302c4904",
-        "sha1": "e28726e850da1b11e0b5515361fd0b361c3f4deb"
+        "sha1": "e28726e850da1b11e0b5515361fd0b361c3f4deb",
+        "sha512": "bd816bf44780f7e4cf54baa02df89d93306d7e2b759e350b416a44e487e1d4229cb082f86703a14fd46e7e2eaaa48b643fa621ad37a26960b667e686302c4904"
       },
       "url": "https://cdn.modrinth.com/data/6lvkzFFj/versions/avoIyuDR/polylib-neoforge-26.3-2.0.17.jar",
       "filename": "polylib-neoforge-26.3-2.0.17.jar",
@@ -871,18 +920,18 @@
   },
   "guideme": {
     "slug": "guideme",
-    "version_number": "26.3.4-alpha",
-    "name": "GuideME 26.3.4-alpha",
+    "version_number": "26.3.7-alpha",
+    "name": "GuideME 26.3.7-alpha",
     "file": {
-      "id": "IYdKJIil",
+      "id": "zze1VUZq",
       "hashes": {
-        "sha1": "03e9137f8118204bd0d0dc32c8e1ec762b1a3775",
-        "sha512": "0fee84231d32e106d08aa028827a6c7136fe3cad90e29b8e1d0c80f2a620e3594f555e8bee21f4bb57174e6e62f992d2f376ee9874e3dea03d14d9f5bd120f55"
+        "sha512": "8baf0f39168b59faed239689a220fe041c490c09d71086ec5986e6b34463f0c56230cc0ba48c75fe8aaba9e30716416118d15d27ea938bee816d4f91557466f4",
+        "sha1": "ce305981c7cb5fc79fe2fe7e75bf95d360646abe"
       },
-      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/k8pDKdkO/guideme-26.3.4-alpha.jar",
-      "filename": "guideme-26.3.4-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/fDhc3PEw/guideme-26.3.7-alpha.jar",
+      "filename": "guideme-26.3.7-alpha.jar",
       "primary": true,
-      "size": 5311239,
+      "size": 5327448,
       "file_type": null
     },
     "dependencies": []
@@ -894,8 +943,8 @@
     "file": {
       "id": "hrZ5zg9I",
       "hashes": {
-        "sha512": "e9266f2720a93a96e83e01fb40c23338196935d0b844ee8ace86e5d88ea9926b49d8c5228ca1e9b553510e587da6c7796b2c1d9f23dfb6bfc154b7d44a111dab",
-        "sha1": "d85526d614b404072cdc88b0989b5eaa4a4e6d36"
+        "sha1": "d85526d614b404072cdc88b0989b5eaa4a4e6d36",
+        "sha512": "e9266f2720a93a96e83e01fb40c23338196935d0b844ee8ace86e5d88ea9926b49d8c5228ca1e9b553510e587da6c7796b2c1d9f23dfb6bfc154b7d44a111dab"
       },
       "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XmQjDLuW/ForgeConfigAPIPort-v26.3.1-mc26.3.x-NeoForge.jar",
       "filename": "ForgeConfigAPIPort-v26.3.1-mc26.3.x-NeoForge.jar",
@@ -930,8 +979,8 @@
     "file": {
       "id": "hb57Yxza",
       "hashes": {
-        "sha1": "da5dd0e330f34854dca45c1f6cb5d3f88f96b0eb",
-        "sha512": "0d085656fae32b09c2ef338f351eff3819349e7ad8ff895d34e9f763619fee7ca2bcb99d5443dc077db014088873dbdb661edeee45d8b0034ef39e86a877972c"
+        "sha512": "0d085656fae32b09c2ef338f351eff3819349e7ad8ff895d34e9f763619fee7ca2bcb99d5443dc077db014088873dbdb661edeee45d8b0034ef39e86a877972c",
+        "sha1": "da5dd0e330f34854dca45c1f6cb5d3f88f96b0eb"
       },
       "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/sQznZoKs/lithostitched-2.0.6-neoforge-26.3.jar",
       "filename": "lithostitched-2.0.6-neoforge-26.3.jar",
@@ -941,20 +990,56 @@
     },
     "dependencies": []
   },
+  "resourceful-lib": {
+    "slug": "resourceful-lib",
+    "version_number": "6.0.1",
+    "name": "[NeoForge] Resourceful Lib 6.0.1",
+    "file": {
+      "id": "k7UIHuGZ",
+      "hashes": {
+        "sha512": "efd56d650259b7fdf0c896ac8b9d0699c2f11c2b9e64a484812747f2594136dfec9124b1d1291090ab499388fdc226c7a5e8163e471ec281e692a22b4c89a4b6",
+        "sha1": "7d0553f5e89a49b07aa4098b9de049f1d87cc803"
+      },
+      "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/g9rQSbAF/ResourcefulLib-6.0.1.jar",
+      "filename": "ResourcefulLib-6.0.1.jar",
+      "primary": true,
+      "size": 451360,
+      "file_type": null
+    },
+    "dependencies": []
+  },
+  "mezzconfig": {
+    "slug": "mezzconfig",
+    "version_number": "0.7.1",
+    "name": "MezzConfig 0.7.1 for NeoForge 26.3",
+    "file": {
+      "id": "DPsNDLdB",
+      "hashes": {
+        "sha512": "27451362c4a04456955e94b1d3cafb115b937be965c0edc917f7124e7ea2158cf3fcd2072670d64693e3fa4b1670bec1f4e955dfda42fedeb98147798ead8161",
+        "sha1": "2f529d7602ea309bc547d0822eff58db44529b49"
+      },
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/Y5gRtxs4/mezz_config-26.3-neoforge-0.7.1-standalone.jar",
+      "filename": "mezz_config-26.3-neoforge-0.7.1-standalone.jar",
+      "primary": true,
+      "size": 347265,
+      "file_type": null
+    },
+    "dependencies": []
+  },
   "the-lost-cities": {
     "slug": "the-lost-cities",
-    "version_number": "26.3-12.0.0",
-    "name": "LostCities - 26.3-12.0.0",
+    "version_number": "26.3-12.0.2",
+    "name": "LostCities - 26.3-12.0.2",
     "file": {
-      "id": "TH1mpGCY",
+      "id": "htxAcexb",
       "hashes": {
-        "sha512": "1ea0b4b06c337cc5efb74cb30441986d4c2a1e3dbb1ff4c1b683870d156f8fb97c3738e91d2f2288cf252546331c3531de36ad5145e6c9ccc215044d31ab2de4",
-        "sha1": "69c565bba12e84a254025c9b740005ff88540d4d"
+        "sha512": "a92f972cd195cac831c09243df6bc2b77c8b7f18303a0dd657d46a77e6ea67f79712aa006f3c8ab1f65780aa0396927b3768f2b04cded515984f3fdba15f7adf",
+        "sha1": "c29afce593a92fcf19f41803fa69e49aa9a07a1b"
       },
-      "url": "https://cdn.modrinth.com/data/8VDCUS3b/versions/qWrk5qzZ/LostCities-26.3-12.0.0.jar",
-      "filename": "LostCities-26.3-12.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8VDCUS3b/versions/vobWui79/26.3_neo-26.3-12.0.2.jar",
+      "filename": "26.3_neo-26.3-12.0.2.jar",
       "primary": true,
-      "size": 1408528,
+      "size": 1414750,
       "file_type": null
     },
     "dependencies": [
@@ -1023,8 +1108,8 @@
     "file": {
       "id": "7617pz4y",
       "hashes": {
-        "sha1": "51d81f5d986d81ea824c9fc94cc1509a5394beab",
-        "sha512": "ae84946fd6a62ea0863cbc9fd2766ad08635a856d2e15af861af7d00807c98e606d1a2a06eb176ea6275031b66b6a186b245c7a4097797d3c12244ca9a4fe968"
+        "sha512": "ae84946fd6a62ea0863cbc9fd2766ad08635a856d2e15af861af7d00807c98e606d1a2a06eb176ea6275031b66b6a186b245c7a4097797d3c12244ca9a4fe968",
+        "sha1": "51d81f5d986d81ea824c9fc94cc1509a5394beab"
       },
       "url": "https://cdn.modrinth.com/data/LPjGiSO4/versions/79OyFQtd/Nullscape_26.3_v2.0.1%2B26.3.jar",
       "filename": "Nullscape_26.3_v2.0.1+26.3.jar",

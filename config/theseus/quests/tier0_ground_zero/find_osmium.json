@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:raw_osmium"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "The Blue Vein",
+    "subtitle": "Tier 0 \u2014 Osmium Prospecting",
+    "description": [
+      "Prospect underground deposits and mine Raw Osmium\u2014the lifeblood of Mekanism metallurgy."
+    ],
+    "groups": {
+      "Tier 0: Ground Zero": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "osmium": {
+      "type": "theseus:item",
+      "title": "Mine Raw Osmium",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:raw_osmium"
+      },
+      "item": "mekanism:raw_osmium",
+      "amount": 8,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "8x Raw Osmium",
+      "item": {
+        "id": "mekanism:raw_osmium",
+        "count": 8
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "50 XP",
+      "xptype": "points",
+      "amount": 50
+    }
+  },
+  "dependencies": [
+    "welcome"
+  ]
+}

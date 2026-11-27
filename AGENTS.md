@@ -42,7 +42,7 @@ Any new recipe, advancement, or configuration change must be placed within one o
 
 ### Environment
 - **Minecraft Version**: `26.3`
-- **Mod Loader**: `NeoForge 26.3.0.95`
+- **Mod Loader**: `NeoForge 26.3.0.110`
 - **Tag Conventions**: Use unified Common Tags (`#c:ingots/steel`, `#c:dusts/refined_obsidian`, `#c:circuits/basic`, etc.) alongside Mekanism identifiers (`mekanism:basic_control_circuit`, `mekanism:alloy_infused`, `mekanism:steel_casing`).
 
 ### Recipe Storage & Packaging
@@ -54,7 +54,7 @@ Any new recipe, advancement, or configuration change must be placed within one o
 
 ## 🏆 4. Quest Line & Progression Architecture
 
-MekPack powers its structured sci-fi progression tree through **Better Advancements** (`BetterAdvancements-NeoForge-26.3-0.6.0.81.jar`) and **Advancement Plaques** (`AdvancementPlaques-26.3-neoforge-1.7.3.jar`), packaged into `custom_mods/MekPackContent-26.3-0.0.1.jar` by `tools/generate_advancements.py` and `tools/build_content.py`:
+MekPack powers its structured sci-fi progression tree through **Theseus Quests** (`theseus-neoforge-26.3-1.1.0.jar`, generated into `config/theseus/` by `tools/generate_theseus_quests.py`) alongside **Better Advancements** (`BetterAdvancements-NeoForge-26.3-0.6.0.81.jar`) and **Advancement Plaques** (`AdvancementPlaques-26.3-neoforge-1.7.3.jar`), packaged into `custom_mods/MekPackContent-26.3-0.0.2.jar` by `tools/generate_advancements.py` and `tools/build_content.py`:
 1. **Interactive Quest Chapters**:
    - `00_ground_zero`: Tier 0 - Ground Zero (Welcome, Osmium Prospecting, Heat Generation)
    - `01_the_spark_of_steel`: Tier 1 - The Spark of Steel (Metallurgic Infuser, Steel, Basic Circuits, Wind Turbines, Pipez, CC:Tweaked, Moving Elevators)
@@ -76,3 +76,42 @@ Before completing any task in this workspace:
 - [ ] **Preserve Repository Cleanliness**: `minecraft/` is local runtime and gitignored; changes must be made in `config/`, `resourcepacks/`, `custom_mods/`, or `tools/`.
 - [ ] **Check Tooling Compatibility**: Ensure changes are recognized and correctly packaged by `tools/setup_instance.py` and `tools/export_pack.py`.
 - [ ] **Document Updates**: Record all modified recipes in `docs/INTEGRATION_MATRIX.md` and keep docs synchronized.
+
+---
+
+## 6. Changelog & Release Announcement Rules
+
+These rules apply to all changelogs (`CHANGELOG.md`, GitHub Releases, Modrinth release notes) and release announcements (Discord, forums, social posts).
+
+### 1. Fixed Changelog Structure
+- Always group every release under these exact three headings in this order:
+  - `### What's New` (new features, mods, quests, or capabilities)
+  - `### What's Changed` (updates, rebalances, or behavior changes to existing features)
+  - `### What's Fixed` (fixes for bugs that affected previous published releases)
+- Omit a heading if that release has no user-facing items for it (for example, a bug-fix patch only needs `### What's Fixed`).
+- Never invent custom category headings (such as "UI & UX Polish", "Architecture", or "Performance") or group items by internal subsystem.
+- Never list fixes for bugs that were introduced and fixed within the same unreleased cycle.
+
+### 2. Plain Language & Conciseness
+- Write for end users, not code reviewers. Focus on what changed for the person playing the modpack, not how it was built.
+- Keep every bullet to a single, plain sentence. If an item needs more than one sentence, simplify it or split distinct user-facing changes into separate bullets.
+- Never include internal implementation details: no file paths, class or function names, module names, API routes, hex color codes, library names, or commit hashes. Users who want that level of detail can read the git history.
+- Omit purely internal refactors, CI/packaging tweaks, or trivial typo fixes unless they directly affect how users install or use the modpack.
+
+### 3. Strictly Avoid AI Tells
+- Do not use emojis anywhere in changelogs. In announcement posts, avoid emojis by default (never put emojis on headings or bullet points).
+- Never use em-dashes or en-dashes. Use periods, commas, colons, or standard hyphens (`-`).
+- Write plain, direct sentences for bullets instead of repeating `**Bold Title**: Description` on every line.
+- Avoid hype, marketing filler, and AI cliches: never use words or phrases like "seamless", "streamlined", "robust", "comprehensive", "elevate", "supercharge", "game-changer", "effortless", "under the hood", "crafted", "delve", "exciting", or "we're thrilled to announce".
+- Skip hollow openers and closers ("In this release, we are excited to...", "Happy crafting!", "Stay tuned for more!"). Write like a maintainer giving a clear, direct update.
+
+### 4. Announcement Posts
+- Open with 1 to 2 plain sentences naming the version and the main reason to care about the release.
+- Follow with a short `What's New`, `What's Changed`, and `What's Fixed` summary (grouping smaller related additions cleanly when space is limited).
+- End with a direct link to the release or download page.
+- Respect platform limits where applicable (for example, under 1,700 characters for Discord).
+
+### Repository Changelog Locations
+When preparing a release (such as `0.0.2`), update:
+- **Root Changelog**: `CHANGELOG.md`
+- **GitHub Releases & Modrinth Release Notes**: Full user-facing changelog following the rules above.

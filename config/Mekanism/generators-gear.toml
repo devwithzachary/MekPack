@@ -4,6 +4,10 @@
 	# Default: 10
 	# Range: 0 ~ 268435455
 	geothermalChargingRate = 10
+	#Solar recharging rate in FE/t of the helmet, per upgrade installed.
+	# Default: 500
+	# Range: > 0
+	solarRechargingRate = 500
 
 	#Settings for configuring damage absorption of the MekaSuit
 	[mekasuit.damage_absorption]

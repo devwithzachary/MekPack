@@ -7,3 +7,7 @@ enableDecayTimers = true
 copyBlockData = true
 #Should holiday greetings and easter eggs play for holidays (ex: Christmas and New Years) on the client. Also controls whether Robits with the default skin should have their skin randomized on the server.
 holidays = true
+#Threshold at which energy starts being displayed in abbreviated form using SI prefixes.
+# Default: 10000
+# Range: 1000 ~ 9223372036854775807
+compactEnergyThreshold = 10000

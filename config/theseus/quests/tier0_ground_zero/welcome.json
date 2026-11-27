@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:steel_casing"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "MekPack: Future Frontiers",
+    "subtitle": "Tier 0 \u2014 The Sovereign Industrial Spine",
+    "description": [
+      "Welcome to MekPack. Mekanism is the central, non-bypassable industrial spine of this world.",
+      "Every companion mod (AE2, Pipez, CC:Tweaked, DimStorage, Entangled, Shrink) is tied to Mekanism progression.",
+      "Click the checkmark below to claim your starter supplies and begin prospecting."
+    ],
+    "groups": {
+      "Tier 0: Ground Zero": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "ready": {
+      "type": "theseus:check",
+      "title": "Acknowledge Briefing",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:steel_casing"
+      }
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "16x Torch",
+      "item": {
+        "id": "minecraft:torch",
+        "count": 16
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "8x Bread",
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      }
+    },
+    "item_2": {
+      "type": "theseus:item",
+      "title": "1x Compass",
+      "item": {
+        "id": "minecraft:compass",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "50 XP",
+      "xptype": "points",
+      "amount": 50
+    }
+  }
+}

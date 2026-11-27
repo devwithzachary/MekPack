@@ -13,9 +13,9 @@ import hashlib
 import glob
 
 PACK_NAME = "MekPack"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 MC_VERSION = "26.3"
-LOADER_VERSION = "26.3.0.95"
+LOADER_VERSION = "26.3.0.110"
 
 DEFAULT_OPTIONS = """resourcePacks:["vanilla"]
 incompatibleResourcePacks:[]
@@ -126,6 +126,10 @@ if __name__ == "__main__":
     adv_gen = os.path.join("tools", "generate_advancements.py")
     if os.path.exists(adv_gen):
         subprocess.check_call([sys.executable, adv_gen])
+
+    theseus_gen = os.path.join("tools", "generate_theseus_quests.py")
+    if os.path.exists(theseus_gen):
+        subprocess.check_call([sys.executable, theseus_gen])
 
     content_builder = os.path.join("tools", "build_content.py")
     if os.path.exists(content_builder):

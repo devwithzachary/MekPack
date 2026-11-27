@@ -1,35 +1,35 @@
 #Settings for configuring Energy Cubes
 [energy_cubes]
 	#Capacity of Basic energy cubes.
-	# Default: 4000000
+	# Default: 5000
 	# Range: 1 ~ 9223372036854775807
 	basicCapacity = 4000000
 	#Output rate of Basic energy cubes.
-	# Default: 4000
+	# Default: 500
 	# Range: > 1
 	basicOutput = 4000
 	#Capacity of Advanced energy cubes.
-	# Default: 16000000
+	# Default: 10000
 	# Range: 1 ~ 9223372036854775807
 	advancedCapacity = 16000000
 	#Output rate of Advanced energy cubes.
-	# Default: 16000
+	# Default: 1000
 	# Range: > 1
 	advancedOutput = 16000
 	#Capacity of Elite energy cubes.
-	# Default: 64000000
+	# Default: 25000
 	# Range: 1 ~ 9223372036854775807
 	eliteCapacity = 64000000
 	#Output rate of Elite energy cubes.
-	# Default: 64000
+	# Default: 2500
 	# Range: > 1
 	eliteOutput = 64000
 	#Capacity of Ultimate energy cubes.
-	# Default: 256000000
+	# Default: 75000
 	# Range: 1 ~ 9223372036854775807
 	ultimateCapacity = 256000000
 	#Output rate of Ultimate energy cubes.
-	# Default: 256000
+	# Default: 2147483647
 	# Range: > 1
 	ultimateOutput = 256000
 	#Capacity of Creative energy cubes.

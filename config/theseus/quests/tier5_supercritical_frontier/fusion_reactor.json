@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/octagons.png",
+    "title": "Harnessing the Sun",
+    "subtitle": "Tier 5 \u2014 D-T Fusion Reactor",
+    "description": [
+      "Ignite a D-T Fusion Reactor with high-energy Laser Amplifiers for near-limitless energy."
+    ],
+    "groups": {
+      "Tier 5: Supercritical Frontier": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "fusion": {
+      "type": "theseus:item",
+      "title": "Craft Fusion Reactor Controller",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanismgenerators:fusion_reactor_controller"
+      },
+      "item": "mekanismgenerators:fusion_reactor_controller",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Quantum Entangloporter",
+      "item": {
+        "id": "mekanism:quantum_entangloporter",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "1500 XP",
+      "xptype": "points",
+      "amount": 1500
+    }
+  },
+  "dependencies": [
+    "ultimate_control_circuit"
+  ],
+  "settings": {
+    "unlockNotification": true
+  }
+}

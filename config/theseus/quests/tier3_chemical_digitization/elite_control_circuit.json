@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:elite_control_circuit"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Quantum Computation Matrix",
+    "subtitle": "Tier 3 \u2014 Elite Circuits",
+    "description": [
+      "Fabricate Elite Control Circuits using Reinforced Alloys."
+    ],
+    "groups": {
+      "Tier 3: Chemical Digitization": {
+        "position": [
+          450,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "elite_c": {
+      "type": "theseus:item",
+      "title": "Craft Elite Control Circuit",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:elite_control_circuit"
+      },
+      "item": "mekanism:elite_control_circuit",
+      "amount": 2,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "2x Elite Control Circuit",
+      "item": {
+        "id": "mekanism:elite_control_circuit",
+        "count": 2
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Elite Tier Installer",
+      "item": {
+        "id": "mekanism:elite_tier_installer",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "350 XP",
+      "xptype": "points",
+      "amount": 350
+    }
+  },
+  "dependencies": [
+    "reinforced_alloy"
+  ]
+}

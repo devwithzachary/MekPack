@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:alloy_atomic"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Subatomic Engineering",
+    "subtitle": "Tier 4 \u2014 Atomic Alloy",
+    "description": [
+      "Infuse Reinforced Alloys with Refined Obsidian to forge Atomic Alloys."
+    ],
+    "groups": {
+      "Tier 4: Nuclear Power & Relays": {
+        "position": [
+          300,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "atomic": {
+      "type": "theseus:item",
+      "title": "Synthesize Atomic Alloy",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:alloy_atomic"
+      },
+      "item": "mekanism:alloy_atomic",
+      "amount": 8,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Alloy Atomic",
+      "item": {
+        "id": "mekanism:alloy_atomic",
+        "count": 4
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "2x Ultimate Tier Installer",
+      "item": {
+        "id": "mekanism:ultimate_tier_installer",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "700 XP",
+      "xptype": "points",
+      "amount": 700
+    }
+  },
+  "dependencies": [
+    "industrial_turbine"
+  ]
+}

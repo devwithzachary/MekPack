@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanismgenerators:wind_generator"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/gears.png",
+    "title": "High-Altitude Kinetic Harvest",
+    "subtitle": "Tier 1 \u2014 Clean Renewable Power",
+    "description": [
+      "Deploy a Wind Generator at high altitude for continuous passive energy generation."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          450,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "wind": {
+      "type": "theseus:item",
+      "title": "Craft Wind Generator",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanismgenerators:wind_generator"
+      },
+      "item": "mekanismgenerators:wind_generator",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Basic Energy Cube",
+      "item": {
+        "id": "mekanism:basic_energy_cube",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "150 XP",
+      "xptype": "points",
+      "amount": 150
+    }
+  },
+  "dependencies": [
+    "basic_control_circuit"
+  ]
+}

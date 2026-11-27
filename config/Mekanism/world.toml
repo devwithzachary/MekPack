@@ -4,6 +4,8 @@ enableRegeneration = false
 # Default: 0
 # Range: > 0
 userWorldGenVersion = 0
+#Only attempt to retrogen chunks while there is time left during the current tick.
+retrogenRespectAvailableTime = true
 
 #Generation Settings for Tin ore.
 [tin]
@@ -480,11 +482,11 @@ userWorldGenVersion = 0
 	perChunk = 2
 	#Base radius of a vein of salt.
 	# Default: 2
-	# Range: 1 ~ 4
+	# Range: 0 ~ 8
 	minRadius = 2
 	#Extended variability (spread) for the radius in a vein of salt.
 	maxRadius = 3
 	#Number of blocks to extend up and down when placing a vein of salt.
 	# Default: 1
-	# Range: 0 ~ 2031
+	# Range: 0 ~ 4
 	halfHeight = 1

@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "Transcendent Logic Core",
+    "subtitle": "Tier 4 \u2014 Ultimate Circuits",
+    "description": [
+      "Fabricate the Ultimate Control Circuit\u2014the apex of computational technology."
+    ],
+    "groups": {
+      "Tier 4: Nuclear Power & Relays": {
+        "position": [
+          450,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "ult_c": {
+      "type": "theseus:item",
+      "title": "Craft Ultimate Control Circuit",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      "item": "mekanism:ultimate_control_circuit",
+      "amount": 2,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "2x Ultimate Control Circuit",
+      "item": {
+        "id": "mekanism:ultimate_control_circuit",
+        "count": 2
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Teleportation Core",
+      "item": {
+        "id": "mekanism:teleportation_core",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "800 XP",
+      "xptype": "points",
+      "amount": 800
+    }
+  },
+  "dependencies": [
+    "atomic_alloy"
+  ]
+}

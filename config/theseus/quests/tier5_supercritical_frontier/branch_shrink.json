@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "shrink:shrinking_device"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "Subatomic Dimension",
+    "subtitle": "Tier 5 Wing \u2014 Shrink",
+    "description": [
+      "Compress your physical form to microscopic scale with the Personal Shrinking Device."
+    ],
+    "groups": {
+      "Tier 5: Supercritical Frontier": {
+        "position": [
+          450,
+          110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "shrink": {
+      "type": "theseus:item",
+      "title": "Craft Personal Shrinking Device",
+      "icon": {
+        "type": "theseus:item",
+        "item": "shrink:shrinking_device"
+      },
+      "item": "shrink:shrinking_device",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "2x Pellet Antimatter",
+      "item": {
+        "id": "mekanism:pellet_antimatter",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "2500 XP",
+      "xptype": "points",
+      "amount": 2500
+    }
+  },
+  "dependencies": [
+    "antimatter_pellet"
+  ]
+}

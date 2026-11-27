@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "computercraft:computer_normal"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Telemetry Core",
+    "subtitle": "Tier 1 Wing \u2014 CC: Tweaked",
+    "description": [
+      "Assemble a CC: Tweaked Computer to run Lua automation and Mekanism telemetry scripts."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          450,
+          -110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "pc": {
+      "type": "theseus:item",
+      "title": "Craft Computer",
+      "icon": {
+        "type": "theseus:item",
+        "item": "computercraft:computer_normal"
+      },
+      "item": "computercraft:computer_normal",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "16x Cable",
+      "item": {
+        "id": "computercraft:cable",
+        "count": 16
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "100 XP",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "dependencies": [
+    "basic_control_circuit"
+  ]
+}

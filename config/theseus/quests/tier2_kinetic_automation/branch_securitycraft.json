@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "securitycraft:keypad_item"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Biometric Security",
+    "subtitle": "Tier 2 Wing \u2014 SecurityCraft",
+    "description": [
+      "Secure your industrial compound with Circuit-driven Keypads and Laser Grids."
+    ],
+    "groups": {
+      "Tier 2: Kinetic Automation": {
+        "position": [
+          300,
+          110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "keypad": {
+      "type": "theseus:item",
+      "title": "Craft Keypad",
+      "icon": {
+        "type": "theseus:item",
+        "item": "securitycraft:keypad_item"
+      },
+      "item": "securitycraft:keypad_item",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Retinal Scanner",
+      "item": {
+        "id": "securitycraft:retinal_scanner",
+        "count": 1
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Door Indestructible Iron Item",
+      "item": {
+        "id": "securitycraft:door_indestructible_iron_item",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "150 XP",
+      "xptype": "points",
+      "amount": 150
+    }
+  },
+  "dependencies": [
+    "advanced_control_circuit"
+  ]
+}

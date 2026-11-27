@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:ingot_steel"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/default.png",
+    "title": "Tempered Ambition",
+    "subtitle": "Tier 1 \u2014 Industrial Steel",
+    "description": [
+      "Infuse Iron with Coal/Carbon twice and smelt the resulting Steel Dust into Steel Ingots."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "steel": {
+      "type": "theseus:item",
+      "title": "Smelt Steel Ingots",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:ingot_steel"
+      },
+      "item": "mekanism:ingot_steel",
+      "amount": 8,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "8x Ingot Steel",
+      "item": {
+        "id": "mekanism:ingot_steel",
+        "count": 8
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Steel Casing",
+      "item": {
+        "id": "mekanism:steel_casing",
+        "count": 1
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "100 XP",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "dependencies": [
+    "metallurgic_infuser"
+  ]
+}

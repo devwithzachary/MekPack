@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:enrichment_chamber"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/gears.png",
+    "title": "Molecular Multiplication",
+    "subtitle": "Tier 2 \u2014 2x Ore Processing",
+    "description": [
+      "Double raw ore yields and enrich Infuser materials (Redstone, Carbon, Diamond) with the Enrichment Chamber."
+    ],
+    "groups": {
+      "Tier 2: Kinetic Automation": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "enrich": {
+      "type": "theseus:item",
+      "title": "Craft Enrichment Chamber",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:enrichment_chamber"
+      },
+      "item": "mekanism:enrichment_chamber",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Upgrade",
+      "item": {
+        "id": "mekanism:upgrade",
+        "count": 4,
+        "components": {
+          "mekanism:upgrade_type": "mekanism:speed"
+        }
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "4x Upgrade",
+      "item": {
+        "id": "mekanism:upgrade",
+        "count": 4,
+        "components": {
+          "mekanism:upgrade_type": "mekanism:energy"
+        }
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "200 XP",
+      "xptype": "points",
+      "amount": 200
+    }
+  },
+  "dependencies": [
+    "basic_control_circuit"
+  ],
+  "settings": {
+    "unlockNotification": true
+  }
+}

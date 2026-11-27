@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/devwithzachary/MekPack/issues"
 
 [[mods]]
     modId="mekpack"
-    version="0.0.1"
+    version="0.0.2"
     displayName="MekPack: Sovereign Spine"
     displayURL="https://github.com/devwithzachary/MekPack"
     authors="Zachary"

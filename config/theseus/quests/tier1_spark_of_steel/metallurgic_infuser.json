@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:metallurgic_infuser"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/hexagons.png",
+    "title": "The Heart of Metallurgy",
+    "subtitle": "Tier 1 \u2014 Alloy & Steel Synthesis",
+    "description": [
+      "Build the Metallurgic Infuser to infuse Redstone, Carbon, and Diamond into base metals."
+    ],
+    "groups": {
+      "Tier 1: The Spark of Steel": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "infuser": {
+      "type": "theseus:item",
+      "title": "Craft Metallurgic Infuser",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:metallurgic_infuser"
+      },
+      "item": "mekanism:metallurgic_infuser",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "8x Enriched Iron",
+      "item": {
+        "id": "mekanism:enriched_iron",
+        "count": 8
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "32x Redstone",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 32
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "100 XP",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "dependencies": [
+    "heat_generator"
+  ],
+  "settings": {
+    "unlockNotification": true
+  }
+}

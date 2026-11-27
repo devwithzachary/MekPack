@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 3,
+  "maxEditorHistory": 100,
+  "defaultMinimapMode": "UNDOCKED",
+  "disableMinimap": false,
+  "minimapX": 1.0,
+  "minimapY": 1.0,
+  "showGrid": false,
+  "snapToGrid": false,
+  "trackerAnchor": "TOP_LEFT",
+  "tutorialAutoShow": true,
+  "tutorialSeen": false,
+  "trackerCollapsed": true
+}

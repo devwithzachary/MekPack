@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "mekanism:purification_chamber"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/gears.png",
+    "title": "Tri-Ore Refining (3x)",
+    "subtitle": "Tier 3 \u2014 Chemical Ore Processing",
+    "description": [
+      "Inject Oxygen into raw ores inside the Purification Chamber for 3x ore multiplication."
+    ],
+    "groups": {
+      "Tier 3: Chemical Digitization": {
+        "position": [
+          150,
+          0
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "purify": {
+      "type": "theseus:item",
+      "title": "Craft Purification Chamber",
+      "icon": {
+        "type": "theseus:item",
+        "item": "mekanism:purification_chamber"
+      },
+      "item": "mekanism:purification_chamber",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "4x Upgrade",
+      "item": {
+        "id": "mekanism:upgrade",
+        "count": 4,
+        "components": {
+          "mekanism:upgrade_type": "mekanism:speed"
+        }
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "4x Upgrade",
+      "item": {
+        "id": "mekanism:upgrade",
+        "count": 4,
+        "components": {
+          "mekanism:upgrade_type": "mekanism:chemical"
+        }
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "300 XP",
+      "xptype": "points",
+      "amount": 300
+    }
+  },
+  "dependencies": [
+    "electrolytic_separator"
+  ]
+}

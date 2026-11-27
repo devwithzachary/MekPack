@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "type": "theseus:item",
+      "item": "ae2:controller"
+    },
+    "icon_background": "theseus:textures/gui/quest_backgrounds/diamonds.png",
+    "title": "The Digital Matrix",
+    "subtitle": "Tier 2 Wing \u2014 Applied Energistics 2",
+    "description": [
+      "Construct the ME Controller mainframe powered by Steel Casings and Advanced Circuits."
+    ],
+    "groups": {
+      "Tier 2: Kinetic Automation": {
+        "position": [
+          300,
+          -110
+        ]
+      }
+    }
+  },
+  "tasks": {
+    "ctrl": {
+      "type": "theseus:item",
+      "title": "Craft ME Controller",
+      "icon": {
+        "type": "theseus:item",
+        "item": "ae2:controller"
+      },
+      "item": "ae2:controller",
+      "amount": 1,
+      "collection": "automatic"
+    }
+  },
+  "rewards": {
+    "item_0": {
+      "type": "theseus:item",
+      "title": "1x Drive",
+      "item": {
+        "id": "ae2:drive",
+        "count": 1
+      }
+    },
+    "item_1": {
+      "type": "theseus:item",
+      "title": "1x Terminal",
+      "item": {
+        "id": "ae2:terminal",
+        "count": 1
+      }
+    },
+    "item_2": {
+      "type": "theseus:item",
+      "title": "2x Item Storage Cell 4K",
+      "item": {
+        "id": "ae2:item_storage_cell_4k",
+        "count": 2
+      }
+    },
+    "xp": {
+      "type": "theseus:xp",
+      "title": "250 XP",
+      "xptype": "points",
+      "amount": 250
+    }
+  },
+  "dependencies": [
+    "advanced_control_circuit"
+  ]
+}
