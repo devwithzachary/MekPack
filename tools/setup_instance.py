@@ -50,11 +50,7 @@ def setup_instance():
             f.write(f"{vanilla_rp}\nincompatibleResourcePacks:[]\n")
     print("[CONFIG] Ensured default vanilla loading screen & resourcepacks in minecraft/options.txt")
 
-    # 4. Generate Advancements & Theseus Quests
-    adv_gen = os.path.join("tools", "generate_advancements.py")
-    if os.path.exists(adv_gen):
-        subprocess.check_call([sys.executable, adv_gen])
-
+    # 4. Generate Theseus Quests
     theseus_gen = os.path.join("tools", "generate_theseus_quests.py")
     if os.path.exists(theseus_gen):
         subprocess.check_call([sys.executable, theseus_gen])

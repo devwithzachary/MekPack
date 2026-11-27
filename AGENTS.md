@@ -54,7 +54,7 @@ Any new recipe, advancement, or configuration change must be placed within one o
 
 ## 🏆 4. Quest Line & Progression Architecture
 
-MekPack powers its structured sci-fi progression tree through **Theseus Quests** (`theseus-neoforge-26.3-1.1.0.jar`, generated into `config/theseus/` by `tools/generate_theseus_quests.py`) alongside **Better Advancements** (`BetterAdvancements-NeoForge-26.3-0.6.0.81.jar`) and **Advancement Plaques** (`AdvancementPlaques-26.3-neoforge-1.7.3.jar`), packaged into `custom_mods/MekPackContent-26.3-0.0.2.jar` by `tools/generate_advancements.py` and `tools/build_content.py`:
+MekPack powers its structured sci-fi progression tree through **Theseus Quests** (`theseus-neoforge-26.3-1.1.0.jar`, generated into `config/theseus/` by `tools/generate_theseus_quests.py`) alongside **Better Advancements** (`BetterAdvancements-NeoForge-26.3-0.6.0.81.jar`) and **Advancement Plaques** (`AdvancementPlaques-26.3-neoforge-1.7.3.jar`), packaged into `custom_mods/MekPackContent-26.3-0.0.3.jar` by `tools/generate_advancements.py` and `tools/build_content.py`:
 1. **Interactive Quest Chapters**:
    - `00_ground_zero`: Tier 0 - Ground Zero (Welcome, Osmium Prospecting, Heat Generation)
    - `01_the_spark_of_steel`: Tier 1 - The Spark of Steel (Metallurgic Infuser, Steel, Basic Circuits, Wind Turbines, Pipez, CC:Tweaked, Moving Elevators)

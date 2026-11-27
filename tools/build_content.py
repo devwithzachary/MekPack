@@ -10,7 +10,7 @@ import zipfile
 import shutil
 
 SOURCE_DIR = "custom_content"
-TARGET_JAR = "custom_mods/MekPackContent-26.3-0.0.2.jar"
+TARGET_JAR = "custom_mods/MekPackContent-26.3-0.0.3.jar"
 
 def build_content_jar():
     if not os.path.exists(SOURCE_DIR):

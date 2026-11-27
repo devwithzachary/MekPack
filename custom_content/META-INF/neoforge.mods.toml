@@ -1,11 +1,9 @@
-modLoader="lowcodefml"
-loaderVersion="[1,)"
 license="MIT"
 issueTrackerURL="https://github.com/devwithzachary/MekPack/issues"
 
 [[mods]]
     modId="mekpack"
-    version="0.0.2"
+    version="0.0.3"
     displayName="MekPack: Sovereign Spine"
     displayURL="https://github.com/devwithzachary/MekPack"
     authors="Zachary"
@@ -13,14 +11,98 @@ issueTrackerURL="https://github.com/devwithzachary/MekPack/issues"
 
 [[dependencies.mekpack]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="[26.3,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.mekpack]]
     modId="mekanism"
-    mandatory=true
+    type="required"
     versionRange="[10.8,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="ae2"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="pipez"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="computercraft"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="dimstorage"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="entangled"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="wormhole"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="shrink"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="chunkloaders"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="trashcans"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="movingelevators"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="securitycraft"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekpack]]
+    modId="theseus"
+    type="optional"
+    versionRange="*"
     ordering="AFTER"
     side="BOTH"

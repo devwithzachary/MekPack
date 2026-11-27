@@ -13,7 +13,7 @@ import hashlib
 import glob
 
 PACK_NAME = "MekPack"
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 MC_VERSION = "26.3"
 LOADER_VERSION = "26.3.0.110"
 
@@ -122,10 +122,6 @@ def create_modrinth_pack():
 
 if __name__ == "__main__":
     import subprocess, sys
-
-    adv_gen = os.path.join("tools", "generate_advancements.py")
-    if os.path.exists(adv_gen):
-        subprocess.check_call([sys.executable, adv_gen])
 
     theseus_gen = os.path.join("tools", "generate_theseus_quests.py")
     if os.path.exists(theseus_gen):

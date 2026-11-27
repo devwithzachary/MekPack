@@ -24,7 +24,7 @@ colorWholeCriteriaText = false
 # Default: 3
 # Range: 1 ~ 10
 criteriaRotationSpeed = 3
-addInventoryButton = true
+addInventoryButton = false
 defaultDrawDirectLines = false
 defaultHideLines = false
 defaultCompletedLineColor = "#FFFFFF"

@@ -10,8 +10,8 @@ A sci-fi tech modpack for **Minecraft 26.3 (NeoForge 26.3.0.110)** built around 
 
 ### Option 1: Import a Release (Recommended)
 1. Download the latest release from [GitHub Releases](https://github.com/devwithzachary/MekPack/releases):
-   - `MekPack-26.3-0.0.2.mrpack` for Prism Launcher, Modrinth App, or ATLauncher.
-   - `MekPack-26.3-0.0.2-Prism.zip` for a self-contained Prism Launcher import.
+   - `MekPack-26.3-0.0.3.mrpack` for Prism Launcher, Modrinth App, or ATLauncher.
+   - `MekPack-26.3-0.0.3-Prism.zip` for a self-contained Prism Launcher import.
 2. In your launcher, click **Add Instance -> Import** and select the downloaded file.
 3. Make sure **Java 25** is selected and **6-8 GB of RAM** is allocated.
 4. Launch the game and open the **Theseus Quest Book** to follow the 6-tier progression tree.
@@ -33,8 +33,8 @@ This links `config/` and `resourcepacks/` into `minecraft/`, generates the quest
 - Because Mekanism does not yet have an official public release for Minecraft 26.3 on Modrinth, MekPack currently bundles dev builds compiled from Mekanism's upstream `26.3` branch.
 
 ### Guided 6-Tier Quest Progression
-- **Theseus Quests**: An in-game 6-chapter, 33-milestone quest book with automatic item-collection tasks, item and XP rewards, and branching wings for companion mods.
-- **Better Advancements & Advancement Plaques**: A full-screen zoomable advancement tree with celebration plaques as you unlock each tier:
+- **Theseus Quests**: Every player receives the **Theseus Quest Book** automatically on joining a world, with a 6-chapter, 33-milestone quest tree, automatic item-collection tasks, item and XP rewards, and branching wings for companion mods.
+- **Advancement Plaques**: Celebration plaques still appear for vanilla and mod advancements, while progression stays centered on the Theseus Quest Book:
   - **Tier 0 - Ground Zero**: Osmium prospecting and basic Heat Generators.
   - **Tier 1 - The Spark of Steel**: Metallurgic Infuser, Steel, Basic Control Circuits, Wind Turbines, Pipez, CC: Tweaked, Moving Elevators, and Chunk Loaders.
   - **Tier 2 - Kinetic Automation**: Enrichment Chamber (2x ore), Infused Alloys, Advanced Circuits, AE2 ME Controller and basic storage, and SecurityCraft keypads.
